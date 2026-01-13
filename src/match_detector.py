@@ -1,0 +1,119 @@
+import argparse
+import os
+import sys
+import json
+import pandas as pd
+
+
+this_dir = os.path.dirname(os.path.abspath(__file__))
+
+data_dir = os.path.normpath(os.path.join(this_dir, '..', 'data'))
+prediction_dir = os.path.join(data_dir, 'predictions')
+output_dir = os.path.join(data_dir, 'output')
+
+output_file = os.path.join(output_dir, 'comparison_result.json')
+
+
+def main(clap_file, model_file):
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    clap_path = os.path.join(data_dir, clap_file)
+
+    try:
+        clap_df = pd.read_csv(clap_path)
+    except Exception as e:
+        print(f"ERROR: Cannot open CLAP file: {e}")
+        sys.exit(1)
+
+    # Check required columns
+    required_cols = {"id", "category"}
+    if not required_cols.issubset(clap_df.columns):
+        print(
+            "ERROR: The provided CLAP dataset must contain "
+            "'id' and 'category' columns."
+        )
+        sys.exit(1)
+
+    # Keep only what we need
+    clap_df = clap_df[["id", "category"]]
+
+    # Normalize
+    clap_df["id"] = clap_df["id"].astype(int)
+    clap_df["category"] = clap_df["category"].astype(str).str.strip().str.upper()
+
+    clap_dict = dict(zip(clap_df["id"], clap_df["category"]))
+
+    model_path = os.path.join(prediction_dir, model_file)
+
+    try:
+        with open(model_path, "r", encoding="utf-8") as f:
+            model_data = json.load(f)
+    except Exception as e:
+        print(f"ERROR: Cannot open model prediction file: {e}")
+        sys.exit(1)
+
+    model_dict = {}
+    for item in model_data:
+        try:
+            rid = int(item["id"])
+            cat = str(item["category"]).strip().upper()
+            model_dict[rid] = cat
+        except Exception:
+            continue  # robustness by design
+
+    results = []
+    matches = 0
+
+    for rid, clap_cat in clap_dict.items():
+        model_cat = model_dict.get(rid)
+
+        match = clap_cat == model_cat
+        if match:
+            matches += 1
+
+        results.append({
+            "id": rid,
+            "category": model_cat,
+            "match": match
+        })
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+
+    total = len(results)
+    accuracy = matches / total
+
+    print("=== EVALUATION REPORT ===")
+    print(f"CLAP file: {clap_file}")
+    print(f"Model file: {model_file}")
+    print(f"Istanze: {total}")
+    print(f"Match: {matches}")
+    print(f"Mismatch: {total - matches}")
+    print(f"Accuracy: {accuracy:.4f}")
+    print(f"Output saved to: {output_file}")
+
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(
+        description="Compare CLAP ground truth with model predictions"
+    )
+
+    parser.add_argument(
+        "--clap",
+        type=str,
+        required=True,
+        help="CLAP CSV filename inside the data directory"
+    )
+
+    parser.add_argument(
+        "--model",
+        type=str,
+        required=True,
+        help="Model prediction JSON filename inside data/predictions"
+    )
+
+    args = parser.parse_args()
+
+    main(args.clap, args.model)
