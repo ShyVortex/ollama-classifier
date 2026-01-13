@@ -22,15 +22,3 @@ CRITICAL RULES:
 - Do NOT ever change context.
 
 Expected output: the raw label indicating the chosen category (without symbols or extra text).
-
-EXAMPLE 1 (for clarity):
-Input: "This is a review...",
-Output: "OTHER"
-
-EXAMPLE 2 (for clarity):
-Input: "This is another review...",
-Output: "BUG"
-
-EXAMPLE 3 (for clarity):
-Input: "Once again, a review.",
-Output: "PERFORMANCE"

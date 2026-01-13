@@ -47,7 +47,10 @@ def call_ollama(model, text, rel_syspath, reasoning):
             },
             "required": ["category"]
         } if reasoning
-            else None,
+        else {
+            "type": "string",
+            "enum": valid_answers
+        },
         "options": {
             "temperature": 0.0,                         # low temperature leads to more technical answers
             "seed": random.randint(min_val, max_val),   # for reproducibility
@@ -65,7 +68,7 @@ def call_ollama(model, text, rel_syspath, reasoning):
         response.raise_for_status()
         return response.json().get('response', '').strip()
     except Exception as e:
-        print(f"API Error: {e}")
+        print(f"\n[API Failure] {e}")
         sys.exit(1)
 
 
@@ -82,11 +85,13 @@ def get_processed_count():
 
 
 def main(data, model, prompt, reasoning):
-    # 1. Process reasoning flag
+    # 1. Handle arguments and edge cases
     try:
-        if reasoning == "Y":
+        if model is None or prompt is None or reasoning is None:
+            raise ValueError()
+        if reasoning == 'Y':
             reasoning = True
-        elif reasoning == "N":
+        elif reasoning == 'N':
             reasoning = False
         else:
             raise ValueError()
@@ -122,7 +127,7 @@ def main(data, model, prompt, reasoning):
         if processed_count >= total_rows:
             print("All rows have already been analyzed!")
             return
-        print(f"Resuming analysis from row {processed_count + 1}...")
+        print(f"Resuming analysis from row {processed_count + 1}...\n")
     else:
         print("No output file found. Starting from scratch...\n")
 
@@ -139,10 +144,10 @@ def main(data, model, prompt, reasoning):
         llm_response = call_ollama(model, text_content, prompt, reasoning)
 
         if llm_response:
-            clean_category = llm_response.upper().replace('.', '').strip()
+            clean_category = llm_response.upper().replace('"', '').strip()
 
-            # If result is not valid even after cleaning, we classify it as OTHER
-            final_category = clean_category if clean_category in valid_answers else "OTHER"
+            # If result is not valid even after cleaning, we classify it as ERROR
+            final_category = clean_category if clean_category in valid_answers else "ERROR"
 
             if reasoning:
                 analysis = json.load(llm_response)
@@ -194,7 +199,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model",
         type=str,
-        default="llama3.2",  # default value if nothing is passed
         help="Ollama model name to use (e.g. llama3.2, deepseek-r1)"
     )
 
@@ -212,7 +216,7 @@ if __name__ == "__main__":
     )
 
     # Handle no args passed
-    if len(sys.argv) == 1:
+    if len(sys.argv) < 2:
         print_usage()
         sys.exit(1)
 
