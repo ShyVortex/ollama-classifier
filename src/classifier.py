@@ -45,7 +45,7 @@ def call_ollama(model, text, rel_syspath, reasoning):
         "model": model,
         "prompt": input_prompt,
         "system": sys_prompt,
-        "stream": False,         # False = we wait for the complete answer,
+        "stream": False,   # We don't need text to be rendered immediately as soon as it's produced
         "format": {
             "type": "object",
             "properties": {
@@ -63,6 +63,7 @@ def call_ollama(model, text, rel_syspath, reasoning):
             "type": "string",
             "enum": valid_answers
         },
+        "think": True if reasoning else False, # refer to https://docs.ollama.com/capabilities/thinking#thinking
         "options": {
             "temperature": 0.0,                         # low temperature leads to more technical answers
             "seed": random.randint(min_val, max_val),   # for reproducibility
