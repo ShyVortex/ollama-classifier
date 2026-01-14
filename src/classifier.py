@@ -3,6 +3,7 @@ import os
 import sys
 import random
 
+import GPUtil
 import pandas as pd
 import requests
 import argparse
@@ -21,6 +22,11 @@ max_val = 18446744073709551615
 
 # Expected categories in output
 valid_answers = ["BUG", "FEATURE", "SECURITY", "PERFORMANCE", "USABILITY", "ENERGY", "OTHER"]
+
+# Initialize hardware-related variables
+cpu_threads = 0
+v_ram = {}
+batch_size = 0
 
 
 def finalize_json(input_jsonl, output_folder):
@@ -107,6 +113,9 @@ def call_ollama(model, text, rel_syspath, reasoning):
             "stop": None if reasoning else ["\n", "."], # stop model on new line or period if not reasoning
             "top_k": 10,                                # reduce probability of generating gibberish
             "top_p": 0.5,                               # value for more or less varied output
+            "num_gpu": 256,                             # max value for open-webui
+            "num_cpu": cpu_threads,                     # use all threads for best possible speed
+            "num_batch": batch_size                     # best-fit batch size for GPU
         },
         "required": ["analysis", "category"] if reasoning else None
     }
@@ -127,6 +136,47 @@ def call_ollama(model, text, rel_syspath, reasoning):
                   "https://ollama.com/search?c=thinking")
             sys.exit(1)
         return None
+
+
+def get_gpu_memory():
+    """Returns both the total and available GPU memory."""
+
+    gpus = GPUtil.getGPUs()
+
+    if not gpus:
+        print("No GPUs detected.", file=sys.stderr)
+        return None
+
+    all_memory = {gpu.id: gpu.memoryFree for gpu in gpus}
+
+    # Find GPU with the most free memory
+    gpu_memory = max(all_memory, key=all_memory.get)
+
+    print(f"Detected GPU with {all_memory[gpu_memory]} MB free memory.")
+    return all_memory, gpu_memory
+
+
+def calc_batchsize():
+    """Computes batch dimension to determine how many tokens are processed at once,
+    based on available GPU memory."""
+
+    global v_ram
+    v_ram = get_gpu_memory()
+    mem_set = v_ram[v_ram[1]][0]
+
+    match mem_set:
+        case memory if memory <= 6144:
+            return 256
+        case memory if 6144 < memory <= 8192:
+            return 512
+        case memory if 8192 < memory <= 12288:
+            return 1024
+        case memory if 12288 <= memory <= 16384:
+            return 2048
+        case memory if memory > 16384:
+            return 4096
+        case _:
+            return 512
 
 
 def get_processed_rows(model):
@@ -207,7 +257,15 @@ def main(data, model, prompt, reasoning):
         # Remove the return if you want to force an additional check
         return
 
-    # 4. Processing loop
+    # 4. Get hardware info
+    global cpu_threads, v_ram, batch_size
+    cpu_threads = os.cpu_count()
+    print(f"Detected CPU with {cpu_threads} threads.")
+
+    batch_size = calc_batchsize()
+    print(f"Using batch size of {batch_size} tokens, based on GPU memory.\n")
+
+    # 5. Processing loop
     for index, row in df.iterrows():
         current_step = index + 1
 
@@ -261,14 +319,14 @@ def main(data, model, prompt, reasoning):
 
             result_obj["category"] = final_category
 
-            # 5. We append the result immediately
+            # 6. We append the result immediately
             with open(output_file, 'a', encoding='utf-8') as f:
                 json.dump(result_obj, f, ensure_ascii=False)
                 f.write('\n')  # new row for JSONL format
         else:
             print(f"Error thrown in line {current_step}, row skipped.\n")
 
-    # 6. Convert JSONL to JSON
+    # 7. Convert JSONL to JSON
     finalize_json(output_file, output_path)
     print(f"Analysis complete! Data has been saved to {output_file}")
 
