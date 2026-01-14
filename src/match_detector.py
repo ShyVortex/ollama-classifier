@@ -7,14 +7,16 @@ import pandas as pd
 
 this_dir = os.path.dirname(os.path.abspath(__file__))
 
-data_dir = os.path.normpath(os.path.join(this_dir, '..', 'data'))
-prediction_dir = os.path.join(data_dir, 'predictions')
+project_root = os.path.abspath(os.path.join(this_dir, '..'))
+
+data_dir = os.path.join(project_root, 'data')
+predictions_root = os.path.join(data_dir, 'predictions')
 output_dir = os.path.join(data_dir, 'output')
 
 output_file = os.path.join(output_dir, 'comparison_result.json')
 
 
-def main(clap_file, model_file):
+def main(clap_file, model_family, model_file):
 
     os.makedirs(output_dir, exist_ok=True)
 
@@ -44,7 +46,11 @@ def main(clap_file, model_file):
 
     clap_dict = dict(zip(clap_df["id"], clap_df["category"]))
 
-    model_path = os.path.join(prediction_dir, model_file)
+    model_path = os.path.join(predictions_root, model_family, model_file)
+
+    if not os.path.isfile(model_path):
+        print(f"ERROR: Model file not found: {model_path}")
+        sys.exit(1)
 
     try:
         with open(model_path, "r", encoding="utf-8") as f:
@@ -86,6 +92,7 @@ def main(clap_file, model_file):
 
     print("=== EVALUATION REPORT ===")
     print(f"CLAP file: {clap_file}")
+    print(f"Model family: {model_family}")
     print(f"Model file: {model_file}")
     print(f"Istanze: {total}")
     print(f"Match: {matches}")
@@ -108,12 +115,19 @@ if __name__ == "__main__":
     )
 
     parser.add_argument(
+        "--model-family",
+        type=str,
+        required=True,
+        help="Model folder inside data/predictions (e.g. Gemini-3.5, GPT-5.2)"
+    )
+
+    parser.add_argument(
         "--model",
         type=str,
         required=True,
-        help="Model prediction JSON filename inside data/predictions"
+        help="Model prediction JSON filename"
     )
 
     args = parser.parse_args()
 
-    main(args.clap, args.model)
+    main(args.clap, args.model_family, args.model)
