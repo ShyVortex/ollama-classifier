@@ -27,14 +27,21 @@ def main(data, conf_level, conf_interval):
             raise ValueError()
         if conf_interval < 0:
             raise ValueError()
+        if conf_interval > 100.0:
+            raise ValueError
     except ValueError:
         print_usage()
         sys.exit(1)
 
     print(f"[CONFIDENCE LEVEL]: {conf_level}%")
-    print(f"[CONFIDENCE INTERVAL]: {conf_interval}%\n")
+    print(f"[CONFIDENCE INTERVAL]: {str(conf_interval)[:3]}%\n")
 
-    conf_interval = float(conf_interval / 100)
+    dec_digits = str(conf_interval)[::-1].find('.')
+
+    if dec_digits > 1:
+        print("More than one decimal digit detected.\nThe given interval will be sliced.\n")
+
+    conf_interval = round(conf_interval / 100, 2)
 
     # 2. Dataset loading
     print(f"Loading data from {data}...")
@@ -73,10 +80,10 @@ def main(data, conf_level, conf_interval):
 
 def print_usage():
     print("ERROR: Invalid program execution\n")
-    print("Basic usage: python sample_generator.py --level [CONFIDENCE_LEVEL] (90 || 95 || 99) "
-          "--interval [CONFIDENCE_INTERVAL] (int)")
-    print("Complete usage: python sample_generator.py --data [SAMPLE_PATH] --level [CONFIDENCE_LEVEL] (90 || 95 || 99) "
-          "--interval [CONFIDENCE_INTERVAL] (int)")
+    print("Basic usage: python sample_generator.py --level [CONFIDENCE_LEVEL] (90 || 95 || 99)\n"
+          "\t\t\t--interval [CONFIDENCE_INTERVAL] (float)[:1] (max value: 100.0)")
+    print("Complete usage: python sample_generator.py --data [SAMPLE_PATH] --level [CONFIDENCE_LEVEL] (90 || 95 || 99)\n"
+          "\t\t\t--interval [CONFIDENCE_INTERVAL] (float)[:1] (max value: 100.0)")
 
 
 if __name__ == "__main__":
@@ -97,7 +104,7 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "--interval",
-        type=int,
+        type=float,
         help="Confidence Interval (margin of error)"
     )
 
