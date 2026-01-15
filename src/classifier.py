@@ -423,7 +423,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--data",
         type=str,
-        default=os.path.normpath(os.path.join(this_dir, '..', 'data', 'rq1-data-nc.csv')),
+        default=os.path.normpath(os.path.join(this_dir, '..', 'data', 'raw_data.csv')),
         help="Path to the input dataset (must be in CSV or XLSX format)"
     )
 
