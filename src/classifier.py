@@ -2,6 +2,7 @@ import json
 import os
 import sys
 import random
+import re
 
 import GPUtil
 import pandas as pd
@@ -35,12 +36,11 @@ def finalize_json(input_jsonl, output_folder):
     os.makedirs(output_folder, exist_ok=True)
     base_name = os.path.splitext(os.path.basename(input_jsonl))[0]
 
-    global output_file
-    output_file = os.path.join(output_folder, f"{base_name}.json")
+    f_path = os.path.join(output_folder, f"{base_name}.json")
 
-    if os.path.exists(output_file):
-        print("Finalized JSON file already exists.\nExiting...")
-        return
+    if os.path.exists(f_path):
+        print("Finalized JSON file already exists.\n\nRepeating process...")
+        os.remove(f_path)
 
     data = []
     with open(input_jsonl, 'r') as jsonl_file:
@@ -54,13 +54,72 @@ def finalize_json(input_jsonl, output_folder):
                 print(f"Error decoding JSON on line {line_number}: {e}")
                 continue
 
-    with open(output_file, 'w') as json_file:
+    with open(f_path, 'w') as json_file:
         json.dump(data, json_file, indent=4)
 
     print(f"[SUCCESS] Converted {base_name}.jsonl to {base_name}.json\n")
 
     if post_analysis:
-        print(f"Conversion complete! Data has been saved to {output_file}")
+        print(f"Conversion complete! Data has been saved to {f_path}")
+
+
+def robust_parse(row_id, snippet, llm_output):
+    """
+    Attempts to parse a JSON file in a more robust way.
+    If json.loads() fails, it tries to clean the string or use regex.
+    """
+
+    clean_text = llm_output.replace("```json", "").replace("```", "").strip()
+
+    # Standard attempt
+    try:
+        reconstructed_obj = json.loads(clean_text)
+        category = reconstructed_obj.get("category", "EMPTY").upper()
+        thought_process = reconstructed_obj.get("analysis", "")
+        return {
+            "id": row_id,
+            "text_snippet": snippet,
+            "analysis": thought_process,
+            "category": category
+        }
+    except json.JSONDecodeError:
+        pass
+
+    # Plan B: we try regex extraction
+    data = {
+        "id": row_id,
+        "text_snippet": snippet,
+        "analysis": "",
+        "category": "EMPTY"
+    }
+
+    # Search for "category": "VALUE" in the text
+    cat_match = re.search(r'"category"\s*:\s*"([^"]+)"', clean_text, re.IGNORECASE)
+    if cat_match:
+        data["category"] = cat_match.group(1)
+    else:
+        # Fallback: we only search the key word
+        for valid in valid_answers:
+            if valid in clean_text.upper():
+                data["category"] = valid
+                break
+        if "category" not in data:
+            for enum in valid_answers:
+                if enum in data:
+                    data["category"] = enum
+                    break
+            else:
+                data["category"] = "EMPTY"
+
+    # Search for "analysis": "Reasoning text..."
+    ana_match = re.search(r'"analysis"\s*:\s*"(.*?)"(?=\s*,\s*"|\s*})', clean_text, re.DOTALL)
+    if ana_match:
+        data["analysis"] = ana_match.group(1)
+    else:
+        # If we can't find the clean analysis, we take the rest
+        data["analysis"] = clean_text[:500]  # first 500 chars to avoid issues
+
+    return data
 
 
 def call_ollama(model, text, rel_syspath, reasoning):
@@ -108,7 +167,7 @@ def call_ollama(model, text, rel_syspath, reasoning):
         "options": {
             "temperature": 0.0,                         # low temperature leads to more technical answers
             "seed": random.randint(min_val, max_val),   # for reproducibility
-            "num_predict": 512 if reasoning else 5,     # max predicted tokens
+            "num_predict": 768 if reasoning else 5,     # max predicted tokens
             "num_ctx": 4096,                            # enough context for a review
             "stop": None if reasoning else ["\n", "."], # stop model on new line or period if not reasoning
             "top_k": 10,                                # reduce probability of generating gibberish
@@ -150,10 +209,10 @@ def get_gpu_memory():
     all_memory = {gpu.id: gpu.memoryFree for gpu in gpus}
 
     # Find GPU with the most free memory
-    gpu_memory = max(all_memory, key=all_memory.get)
+    best_gpu_id = max(all_memory, key=all_memory.get)
 
-    print(f"Detected GPU with {all_memory[gpu_memory]} MB free memory.")
-    return all_memory, gpu_memory
+    print(f"Detected GPU with {all_memory[best_gpu_id]} MB free memory.")
+    return all_memory, best_gpu_id
 
 
 def calc_batchsize():
@@ -161,10 +220,10 @@ def calc_batchsize():
     based on available GPU memory."""
 
     global v_ram
-    v_ram = get_gpu_memory()
-    mem_set = v_ram[v_ram[1]][0]
+    all_mem, best_gpu_id = get_gpu_memory()
+    free_mem = all_mem[best_gpu_id]
 
-    match mem_set:
+    match free_mem:
         case memory if memory <= 6144:
             return 256
         case memory if 6144 < memory <= 8192:
@@ -179,7 +238,30 @@ def calc_batchsize():
             return 512
 
 
-def get_processed_rows(model):
+def reg_check(data_obj):
+    """
+    Extracts text from JSON output and validates the category.
+    If either no category or an invalid category is found it returns False, otherwise True.
+    """
+
+    clean_text = data_obj.replace("```json", "").replace("```", "").strip()
+
+    # Search for "category": "VALUE" in the text
+    cat_match = re.search(r'"category"\s*:\s*"([^"]+)"', clean_text, re.IGNORECASE)
+    if cat_match:
+        return True
+    else:
+        # Fallback: we only search the key word
+        for valid in valid_answers:
+            if valid in clean_text.upper():
+                return True
+        if "category" not in data_obj:
+            return False
+
+    return False
+
+
+def get_processed_rows(model, reasoning):
     """
     Reads the output file and returns a set of row IDs that have been
     successfully processed, excluding errors or undefined categories.
@@ -203,7 +285,11 @@ def get_processed_rows(model):
 
                         # If classification didn't fail, add row to processed list
                         if category not in retry_labels:
-                            processed_rows.add(data['id'])
+                            if reasoning:
+                                if "analysis" in data and "text_snippet" in data:
+                                    processed_rows.add(data['id'])
+                            else:
+                                processed_rows.add(data['id'])
 
                 except json.JSONDecodeError:
                     continue
@@ -246,7 +332,7 @@ def main(data, model, prompt, reasoning):
     total_rows = len(df)
 
     # 3. Resume check
-    processed_rows = get_processed_rows(model)
+    processed_rows = get_processed_rows(model, reasoning)
     print(f"Already completed: {len(processed_rows)}/{total_rows} rows.\n")
 
     if len(processed_rows) >= total_rows:
@@ -289,17 +375,9 @@ def main(data, model, prompt, reasoning):
 
             if reasoning:
                 try:
-                    analysis = json.loads(llm_response)
-
-                    final_category = analysis.get("category", "EMPTY").upper()
-                    ext_thinking = analysis.get("analysis", "")
-
-                    result_obj = {
-                        "id": current_step,
-                        "text": text_content,
-                        "analysis": ext_thinking,
-                        "category": final_category,
-                    }
+                    snippet = ' '.join(text_content.split()[:5])
+                    result_obj = robust_parse(current_step, snippet, llm_response)
+                    final_category = result_obj.get("category", "EMPTY")
                 except json.JSONDecodeError:
                     print(f"\n[JSON Error] Could not parse: {llm_response[:50]}...")
                     result_obj["category"] = "ERROR"

@@ -1,4 +1,4 @@
 .idea/
-.output/
 .run/
+output/**/*
 data/output/
