@@ -19,6 +19,32 @@ z_scores = [1.645, 1.96, 2.576]
 st_dev = 0.5
 
 
+def generate_sample(df, conf_level, conf_interval):
+    # 3. Check for and remove duplicates
+    initial_len = len(df)
+
+    # Remove duplicates based on row IDs
+    df.drop_duplicates(subset=['id'], inplace=True)
+
+    final_len = len(df)
+    if initial_len != final_len:
+        print(f"Warning: Removed {initial_len - final_len} duplicated rows from the original dataset.")
+
+    population = len(df)
+
+    # 4. Calculate sample size
+    ## Algorithm -> (n = N * Z^2 * p * (1 - p)) / (e^2 * (N - 1) + Z^2 * p * (1 - p))
+    ### N = Population, Z = Z-Score, p = Standard Deviation, e = Confidence Interval
+    z_sc = z_scores[confidence_levels.index(conf_level)]
+    n_instances = math.ceil((population * pow(z_sc, 2) * st_dev * (1 - st_dev)) /
+                            (pow(conf_interval, 2) * (population - 1) + pow(z_sc, 2) * st_dev * (1 - st_dev)))
+
+    # 5. Sample generation and saving
+    sample_df = df.sample(n=n_instances, random_state=random.randint(s_min, s_max))[['id', text_column, res_column]]
+    sample_df['id'] = pd.factorize(sample_df['id'])[0] + 1
+    return sample_df
+
+
 def main(data, conf_level, conf_interval):
     # 1. Handle arguments and edge cases
     try:
@@ -74,22 +100,6 @@ def print_usage():
     print("Complete usage: python sample_generator.py --data [SAMPLE_PATH] --level [CONFIDENCE_LEVEL] (90 || 95 || 99)\n"
           "\t\t\t--interval [CONFIDENCE_INTERVAL] (float)[:1] (max value: 100.0)")
 
-
-def generate_sample(df, conf_level, conf_interval):
-    population = len(df)
-
-    # 3. Calculate sample size
-    ## Algorithm -> (n = N * Z^2 * p * (1 - p)) / (e^2 * (N - 1) + Z^2 * p * (1 - p))
-    ### N = Population, Z = Z-Score, p = Standard Deviation, e = Confidence Interval
-    z_sc = z_scores[confidence_levels.index(conf_level)]
-    n_instances = math.ceil((population * pow(z_sc, 2) * st_dev * (1 - st_dev)) /
-                            (pow(conf_interval, 2) * (population - 1) + pow(z_sc, 2) * st_dev * (1 - st_dev)))
-
-
-    # 4. Sample generation and saving
-    sample_df = df.sample(n=n_instances, random_state=random.randint(s_min, s_max))[['id', text_column, res_column]]
-    sample_df['id'] = pd.factorize(sample_df['id'])[0] + 1
-    return sample_df
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Sample Generator from a given dataset")

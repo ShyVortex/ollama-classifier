@@ -1,0 +1,974 @@
+[
+  {
+    "id": 1,
+    "text_snippet": "my favourite game love it",
+    "analysis": "The review expresses positive sentiment about the game, mentioning enjoyment and the number of players. It does not describe any technical issues, errors, or specific problems that fall under the defined categories. Since it is a generic positive review without technical details, it aligns with the OTHER category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 2,
+    "text_snippet": "alright but not intuitive too",
+    "analysis": "The review describes difficulty in using the app, mentioning that it is not intuitive and buttons need improvement. This falls under user experience issues, specifically UI/UX problems, which aligns with the USABILITY category. There are no reports of errors, crashes, security concerns, performance issues, battery drain, or feature requests. The comment is focused on how the app is designed and used, so it fits under usability.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 3,
+    "text_snippet": "please fix would give 5",
+    "analysis": "The user is reporting an issue where the app does not update on their phone and displays an error message. This indicates a problem with the app's functionality, specifically a non-working feature or incorrect behavior, which falls under the BUG category. There is no mention of security, performance, usability, energy, or feature requests, so BUG is the most appropriate label.",
+    "category": "BUG"
+  },
+  {
+    "id": 4,
+    "text_snippet": "freeze freezes right after i",
+    "analysis": "The review describes multiple technical issues: the app freezing during video calls, going offline when idle, and not working in the background. These issues indicate problems with the app's stability and functionality. Following the priority rule, BUG is the most appropriate category since these are concrete errors or incorrect behaviors. The other issues like freezing and background functionality are also technical errors, but BUG encompasses them as they relate to non-working features.",
+    "category": "BUG"
+  },
+  {
+    "id": 5,
+    "text_snippet": "fast and speed application",
+    "analysis": "The review states 'fast and speed application', which directly references performance. It mentions speed, indicating a positive aspect related to the application's responsiveness. According to the priority, PERFORMANCE is higher than other categories like FEATURE or OTHER. There is no mention of bugs, security issues, energy consumption, usability problems, or new feature requests. Therefore, the most appropriate category is PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 6,
+    "text_snippet": "fun widget good selection of",
+    "analysis": "The review describes a positive experience with the widget's selection of hilts and colors, indicating satisfaction with the available options. This does not fit into any specific technical category as it lacks details about errors, new features, security, performance, usability, or energy issues. It is a generic positive review.",
+    "category": "OTHER"
+  },
+  {
+    "id": 7,
+    "text_snippet": "? this is cool. but",
+    "analysis": "The review expresses a positive sentiment with 'this is cool' but then raises a question about downloading an old version of Minecraft Pocket Edition. This does not fit into any specific technical category as it is not reporting an error, requesting a feature, expressing security concerns, performance issues, usability problems, or energy drain. It is a generic inquiry about obtaining a specific version, which falls under non-technical or general topics. According to the priority, it should be labeled as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 8,
+    "text_snippet": "simple to use good and",
+    "analysis": "The review describes the app as simple to use and good, which are non-technical comments about the user experience without specifying any concrete issues. This falls under the OTHER category as it does not fit into any of the more specific categories like BUG, FEATURE, etc.",
+    "category": "OTHER"
+  },
+  {
+    "id": 9,
+    "text_snippet": "i love it but bugs",
+    "analysis": "The review expresses a positive sentiment but explicitly mentions unresolved bugs. Since bugs are a concrete error or incorrect behavior, this falls under the BUG category. The presence of a bug report takes precedence over any other potential interpretations.",
+    "category": "BUG"
+  },
+  {
+    "id": 10,
+    "text_snippet": "disappointed freezes on start n",
+    "analysis": "The review expresses disappointment due to the app freezing on start and letters not showing, which indicates a technical issue. This falls under BUG as it describes a non-working feature or incorrect behavior.",
+    "category": "BUG"
+  },
+  {
+    "id": 11,
+    "text_snippet": "good application best news application",
+    "analysis": "The review is positive, praising the application as 'good' and calling it the 'best news application'. However, it explicitly requests a new feature: 'it should add a feature of notification'. This request for a new feature falls under the 'FEATURE' category. The mention of '@-}--' appears to be an error or unrelated text and does not affect the classification.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 12,
+    "text_snippet": "an excellent offline rss reader",
+    "analysis": "The review describes the app as an excellent offline RSS reader with positive attributes such as being simple, lightweight, and open source. It mentions a missing feature (grouping feeds in folders) and provides advice about potential conflicts with other apps. The overall tone is positive and appreciative, with no indication of technical issues, security concerns, performance problems, or energy drain. The missing feature is a suggestion for improvement but does not meet the criteria for a feature request label because it is not explicitly requested or substantial. The advice about duplicate errors might imply a potential issue, but it is not confirmed as a bug or crash. The review focuses on usability and functionality rather than reporting an error or requesting a new feature. Since the review is primarily positive and does not report any concrete errors or crashes, it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 13,
+    "text_snippet": "unable to sign in with",
+    "analysis": "The review describes a specific issue with the Facebook sign-in feature where the icon causes the game to freeze and kick out the user. This indicates a non-working feature or incorrect behavior, which falls under the BUG category. There is no mention of security, performance, usability, energy, or feature requests. The priority order places BUG above other categories, so BUG is the most appropriate label.",
+    "category": "BUG"
+  },
+  {
+    "id": 14,
+    "text_snippet": "needs updating again ! i",
+    "analysis": "The review mentions multiple issues: the app needs speed improvement, bugs need to be fixed, and the app won't pull up. Among these, the request for speed improvement falls under PERFORMANCE, the mention of bugs falls under BUG, and the app not pulling up is a specific error which is BUG. However, the review also contains a general complaint about the app not working properly. Considering the priority SECURITY > BUG > PERFORMANCE > ENERGY > USABILITY > FEATURE > OTHER, the most prominent issue is BUG due to the explicit mention of bugs and the app not functioning. The speed improvement is a separate issue but less critical than the bugs. Since the review is primarily focused on bugs and functionality, the label should be BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 15,
+    "text_snippet": "dont waste your time !!!",
+    "analysis": "{\"analysis\": \"The review contains multiple issues: loading problems, freezing, pop-up ads, and unintended deletion of other apps. These issues include performance (freezes), usability (pop-up ads and deletion of other apps), and security/privacy concerns (unintended deletion of other apps). However, following the priority rule, security concerns take precedence. The unintended deletion of other apps could be a security or privacy issue, but it's also a bug. Since security has higher priority tha",
+    "category": "BUG"
+  },
+  {
+    "id": 16,
+    "text_snippet": ":/ i am still confused",
+    "analysis": "The user expresses confusion about the app's functionality and suggests making it easier to understand. This is a comment on the user experience, specifically the clarity of the interface and instructions, which falls under usability issues. There is no mention of bugs, security, performance, energy, or feature requests. The primary concern is about how the app is presented to the user, so the label is usability.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 17,
+    "text_snippet": "ok i guess just fix",
+    "analysis": "The review mentions a 'start up bug', which is a specific error in the app's behavior. This falls under the BUG category as it describes a concrete error that is causing annoyance. There are no other issues mentioned, so BUG is the most appropriate label.",
+    "category": "BUG"
+  },
+  {
+    "id": 18,
+    "text_snippet": "pretty good the app is",
+    "analysis": "{\"analysis\": \"The review contains multiple issues: dissatisfaction with the new SMS feature's functionality (clumsy, limited editing, slow sending), UI issues (cursor and send button visibility), and a comment on rushed development. The UI issue is a usability concern, but the functional issues (clumsiness, slow sending) are more aligned with bug or performance. However, the slow sending indicates performance, while the limited features and clumsy behavior might be bugs. Given the priority SECUR",
+    "category": "BUG"
+  },
+  {
+    "id": 19,
+    "text_snippet": "not good not bad using",
+    "analysis": "The review mentions a specific issue with call recording on the HTC Desire 500 where calls from the second SIM are not recorded, while calls from the first SIM are. This indicates a functional error in the app's behavior, which falls under the BUG category. There are no references to security, performance, usability, energy, or feature requests. The review also includes a request to fix the bug, confirming it's a bug report.",
+    "category": "BUG"
+  },
+  {
+    "id": 20,
+    "text_snippet": "cant play it in my",
+    "analysis": "The review describes a user experiencing crashes ('forced close') and memory issues ('takes too much memory') after playing the game for a couple of days. These are concrete errors and incorrect behaviors, indicating a bug. The priority order places BUG above PERFORMANCE, ENERGY, etc., so BUG is the most appropriate category.",
+    "category": "BUG"
+  },
+  {
+    "id": 21,
+    "text_snippet": "absolutely wonderful! has all the",
+    "analysis": "The review expresses positive sentiment about the app, mentioning features like antivirus, UI, privacy, and speed. It also points out a drawback regarding themes and the notification tray, but these are not technical issues. The overall tone is appreciative and not focused on any specific technical problem.",
+    "category": "OTHER"
+  },
+  {
+    "id": 22,
+    "text_snippet": "htc one s great app",
+    "analysis": "The review expresses positive sentiment about the app, mentioning widgets and overall satisfaction. There are no technical issues, security concerns, performance problems, usability complaints, energy drain, or feature requests. It is a generic positive review without any specific technical feedback.",
+    "category": "OTHER"
+  },
+  {
+    "id": 23,
+    "text_snippet": "any time avialable for read",
+    "analysis": "The review expresses positive sentiment about the app being very good and superb, without mentioning any technical issues, security concerns, performance problems, usability issues, or energy consumption. It is a generic positive review without specific feedback on any of the defined categories.",
+    "category": "OTHER"
+  },
+  {
+    "id": 24,
+    "text_snippet": "straightforward useful very useful for",
+    "analysis": "The review is positive overall, praising the basic functionality, specific features like any.do moment, and the companion calendar. However, it mentions a lack of sub-tasks and difficulty accessing additional task details, which is a feature request and usability concern. Since the priority order is SECURITY > BUG > PERFORMANCE > ENERGY > USABILITY > FEATURE > OTHER, and the text contains a feature request (lack of sub-tasks) and a usability issue (difficult interface), the feature request takes precedence as it is more specific and actionable. The usability issue is less severe and falls lower in priority. Therefore, the label is FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 25,
+    "text_snippet": "my go to weather app",
+    "analysis": "The review expresses overall satisfaction with the app, mentioning efficient battery use, great visuals, and beautiful widgets. However, there is a minor concern about not being able to get temperature overseas, which is described as a 'only concern' and can be worked around. Since this issue is minor and not critical, and the review is mostly positive, the most appropriate category is OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 26,
+    "text_snippet": "the app is good for",
+    "analysis": "The review describes multiple issues including bugs (force closing the app), performance problems (app crashes after 30 seconds), and usability/design complaints (poor design, focus on optimization). The review explicitly mentions bugs and performance issues. According to the priority rule, BUG and PERFORMANCE are both technical issues, but BUG has higher priority. However, the review also contains a complaint about the website and mobile view, which might fall under BUG or PERFORMANCE. Since the primary issue is the app crashing, which is a BUG, and the performance issue (crashing after 30 seconds) is related, BUG is the most appropriate category. The design complaint is less severe and falls under USABILITY, but the priority rule places BUG above PERFORMANCE and USABILITY. The review also includes a general complaint about the app being 'suckish', but the specific technical issues point to BUG. Therefore, the label should be BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 27,
+    "text_snippet": "4 stars .. interesting app.",
+    "analysis": "The review expresses a positive sentiment with 4 stars, but mentions a lack of specific photo editing features. This is an explicit request for a new feature that is not currently present, which falls under the 'FEATURE' category. There is no indication of bugs, security issues, performance problems, energy concerns, or usability issues. The comment is not generic or spam, so it does not fit 'OTHER'.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 28,
+    "text_snippet": "? have no idea how",
+    "analysis": "The review expresses frustration with the game's mechanics specifically mentioning difficulty in feeding a dragon, which indicates a usability issue due to confusing or difficult navigation in the game interface. The emotional tone with words like 'boooorrrriiiiiinnhgggg' suggests dissatisfaction with the user experience, but the core issue is the inability to perform a task, which falls under usability.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 29,
+    "text_snippet": "terrible horrible graphics. tutorial takes",
+    "analysis": "The review contains multiple issues: poor graphics, slow loading, frequent disconnects, bugs and glitches, server problems, game balance issues, lack of updates, and excessive ads. Among these, bugs and glitches fall under BUG category, while server issues might relate to performance or security. However, following the priority rule, BUG is the most specific and highest priority category here. Other issues like graphics and loading could be under PERFORMANCE or USABILITY, but BUG takes precedence due to the explicit mention of bugs and glitches. The review also includes non-technical complaints, but BUG is still the top priority.",
+    "category": "BUG"
+  },
+  {
+    "id": 30,
+    "text_snippet": "great but.... great but decrease",
+    "analysis": "The review states 'great but.... great but decrease alot of battery life on my ace 2'. This indicates a complaint about battery drain, which falls under the ENERGY category. There are no other issues mentioned such as bugs, security concerns, or performance problems. The primary concern is energy efficiency, so ENERGY is the most appropriate category.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 31,
+    "text_snippet": "last update good job but",
+    "analysis": "The review mentions a positive aspect with 'good job' but the primary concern is an error occurring after the last update. This error is a concrete issue with the app's behavior, which falls under the BUG category. The presence of an error indicates incorrect app behavior, and since the review explicitly requests a fix, it aligns with the BUG category. According to the priority, BUG is higher than other potential categories.",
+    "category": "BUG"
+  },
+  {
+    "id": 32,
+    "text_snippet": "amazing. this app is perfection.",
+    "analysis": "The text expresses a highly positive sentiment with words like 'amazing' and 'perfection', indicating a general satisfaction. There are no specific technical issues mentioned, such as bugs, security concerns, performance problems, or usability complaints. The review does not request new features or discuss energy consumption. It is a generic positive review without any concrete feedback on technical aspects. According to the priority, this falls under OTHER since it lacks specificity and does not fit any higher priority category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 33,
+    "text_snippet": "issue with sound and video",
+    "analysis": "The review describes a problem with video playback in VLC app, specifically mentioning video freezing, video playing with mismatched sound and video. This indicates a technical issue with video rendering or playback performance, which falls under the PERFORMANCE category. There is no mention of security, bugs, energy, usability, or features. The issue is related to speed and smoothness of video playback, hence PERFORMANCE is the most appropriate label.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 34,
+    "text_snippet": "ya this is great.",
+    "analysis": "The review text 'ya this is great.' is a positive comment without any specific technical issues. It does not describe a bug, feature request, security concern, performance issue, usability problem, or energy drain. It is a generic positive review that falls under the OTHER category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 35,
+    "text_snippet": "excellent does what it says",
+    "analysis": "The review describes the app's performance in bright sunlight, specifically mentioning that it is easy to see. This indicates a positive comment about the app's usability in certain conditions, but it does not directly address technical issues like bugs, security, performance, energy, or feature requests. The comment is about the user experience in a specific scenario, which falls under usability.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 36,
+    "text_snippet": "it freezes evertime i open",
+    "analysis": "The review states that the app freezes every time it is opened, which indicates a performance issue due to lag or temporary freezes. There is no mention of security concerns, bugs, energy issues, usability problems, or feature requests. The issue is specific to performance, so the category is PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 37,
+    "text_snippet": "i love it but... i",
+    "analysis": "The review expresses positive sentiment overall but mentions a specific issue with screen transition smoothness. This falls under performance issues as it relates to smoothness and lag. The priority order places performance above usability, but since the issue is about smoothness which is a performance aspect, it is selected over usability.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 38,
+    "text_snippet": "beautiful widget. only problem i",
+    "analysis": "The review mentions a positive aspect about the widget being beautiful, but the main issue is the app continuously using GPS even when it's turned off, which is causing battery drain. This is a specific reference to energy consumption, falling under the ENERGY category. The review does not explicitly mention security, bugs, performance, usability, or feature requests, so ENERGY is the most appropriate label based on the priority order.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 39,
+    "text_snippet": "whoah :0 i love the",
+    "analysis": "The review contains both positive and negative sentiments. The user expresses frustration with a specific technical issue: the app freezing when playing a purchased song, and the issue persists even after restarting the app, leading to a loss of coins. This is a clear report of incorrect behavior or non-working features. There is also a request for more coins, but it is tied to the technical issue. The primary concern is the bug in the app functionality, which falls under the BUG category. The request for more coins is not a feature request but is a consequence of the bug, so it does not change the primary classification. The issue is not ambiguous and fits the BUG category according to the priority rules.",
+    "category": "BUG"
+  },
+  {
+    "id": 40,
+    "text_snippet": "no copy text feature this",
+    "analysis": "The review expresses a desire for a new feature (copy text from PDFs) that is not currently available. It does not mention any bugs, security issues, performance problems, energy concerns, or usability issues. The user is requesting a change to the app's functionality, which fits the 'FEATURE' category. There is no ambiguity or multiple issues that would require a higher priority category.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 41,
+    "text_snippet": "save to sd card i",
+    "analysis": "The user is reporting an issue where the app's setting to save to SD card is not functioning as expected, and files are being saved to internal memory instead. This indicates a failure in the intended functionality, which falls under a bug report. There is no mention of crashes, security, performance, or other categories, so BUG is the most appropriate label.",
+    "category": "BUG"
+  },
+  {
+    "id": 42,
+    "text_snippet": "great verry productive and usefull",
+    "analysis": "The review expresses positive sentiment about the app being productive and useful, but does not specify any technical issue, feature request, security concern, performance problem, usability issue, or energy drain. It is a generic positive review without any concrete feedback falling into the defined categories.",
+    "category": "OTHER"
+  },
+  {
+    "id": 43,
+    "text_snippet": "yep cool game this game",
+    "analysis": "The text expresses a positive sentiment about the game without describing any specific technical issue. It does not mention bugs, crashes, security concerns, performance issues, usability problems, energy consumption, or feature requests. The review is generic praise, which falls under the OTHER category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 44,
+    "text_snippet": "new update not working well",
+    "analysis": "The review describes an issue with the app not allowing login to Facebook, causing the phone to freeze and requiring a restart. This indicates a problem with the app's functionality, specifically related to integration with Facebook and potential crashes or freezes. According to the priority, BUG is the most appropriate category as it involves incorrect behavior or non-working features.",
+    "category": "BUG"
+  },
+  {
+    "id": 45,
+    "text_snippet": "front camera it is upside",
+    "analysis": "The review states that the front camera is upside down, which indicates a visual error in the camera functionality. This is a specific issue with the app's behavior, not a security concern, performance issue, or anything else. It falls under the BUG category as it describes incorrect app behavior.",
+    "category": "BUG"
+  },
+  {
+    "id": 46,
+    "text_snippet": "excellent app. clean and easy",
+    "analysis": "The review describes the app as excellent, clean, and easy to use. This is a positive comment about the user experience and interface, which falls under usability. There are no technical issues mentioned, so it does not fit other categories.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 47,
+    "text_snippet": "good for unreliable connections. ui",
+    "analysis": "The review contains multiple issues: it mentions UI problems (formatting changes, background corruption, notification issues), performance issues (time to negotiate connection), and a feature request for implementing XEP-0198. However, the primary focus is on UI and feature requests. According to the priority, FEATURE and USABILITY are both present, but since FEATURE has lower priority than USABILITY, and the review explicitly requests a new feature (implementing XEP-0198) while also describing UI issues, the most likely category is FEATURE because the feature request is explicit and the UI issues are secondary. The review also includes criticism of other clients and servers, but the main technical issue is the feature request.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 48,
+    "text_snippet": "not working when i download",
+    "analysis": "The review describes an issue where the app does not work properly and has errors upon download. The user explicitly requests a fix, indicating a problem with the app's functionality. This falls under the BUG category as it involves non-working features or incorrect behavior. There is no mention of security, performance, usability, energy, or feature requests. The tone is frustrated but the core issue is a functional error.",
+    "category": "BUG"
+  },
+  {
+    "id": 49,
+    "text_snippet": "live view freezes after taking",
+    "analysis": "The review describes a technical issue where the live view freezes after taking a shot, but other functions continue to work. This indicates a performance issue related to the camera feature, specifically a temporary freeze or lag. According to the priority, PERFORMANCE is higher than USABILITY or others. There is no mention of security, bugs, energy, or other categories. The issue is specific to performance.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 50,
+    "text_snippet": "game this game is kool!!!!",
+    "analysis": "The review expresses a positive sentiment about the game being 'kool', which is a generic compliment without specifying any technical issue. It does not mention bugs, features, security, performance, usability, energy consumption, or any specific problem. Therefore, it falls under the 'OTHER' category as it is a non-technical comment.",
+    "category": "OTHER"
+  },
+  {
+    "id": 51,
+    "text_snippet": "good i lives the challenging",
+    "analysis": "The review expresses positive sentiment about the mini games and describes the frogs as cute. There is no mention of technical issues, bugs, security concerns, performance problems, usability issues, or energy consumption. The content is generic praise and does not fall into any specific technical category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 52,
+    "text_snippet": "hmm actually i do ot",
+    "analysis": "The review text expresses a tentative willingness to try something despite initial dislike, but it does not describe any technical issue, error, feature request, security concern, performance problem, usability issue, or energy drain. It is a generic, non-technical comment that does not fit into any specific category defined by the classifier. According to the rules, such content falls under the OTHER category as it lacks technical specificity and is not a complaint about the app's functionality.",
+    "category": "OTHER"
+  },
+  {
+    "id": 53,
+    "text_snippet": "major errors i like this",
+    "analysis": "The review mentions multiple issues: 'major errors', 'unexpected stop in wave', and 'now in missions also'. These indicate crashes or non-working features, which fall under the BUG category. The request for a fix aligns with a BUG report. Although there is a positive comment about giving 5 stars, the primary focus is on the technical problems. According to the priority, BUG is higher than FEATURE, so BUG is selected.",
+    "category": "BUG"
+  },
+  {
+    "id": 54,
+    "text_snippet": "love it! makes it easy",
+    "analysis": "The review expresses a positive sentiment about the app's functionality, specifically mentioning ease of use for checking daily deals. There is no indication of technical issues, security concerns, performance problems, energy drain, or usability complaints. The comment is generic praise without specific technical details, so it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 55,
+    "text_snippet": "battery drain after new update",
+    "analysis": "The user reports a battery drain issue after a new update. This is a specific reference to rapid battery drain, which falls under the ENERGY category. There are no other issues mentioned, so ENERGY is the most appropriate label.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 56,
+    "text_snippet": "awesome app ! this is",
+    "analysis": "The review expresses positive sentiment about the app's performance as a memory cleaner, indicating satisfaction with its functionality. There are no specific technical issues mentioned such as bugs, security concerns, performance problems, energy drain, or usability issues. The comment is generic praise without detailing any particular feature or problem, aligning with the 'OTHER' category for non-technical comments.",
+    "category": "OTHER"
+  },
+  {
+    "id": 57,
+    "text_snippet": "laggy it keeps lagging on",
+    "analysis": "The review describes the app freezing and lagging, which are performance issues. There is no mention of bugs, security concerns, energy issues, usability problems, or feature requests. The primary issue is performance-related, specifically lag and freezing.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 58,
+    "text_snippet": "amazing very good app and",
+    "analysis": "The review expresses positive sentiment about the app being amazing, very good, interesting, and the best for sports. It does not mention any technical issues, errors, security concerns, performance problems, usability flaws, energy consumption, or feature requests. It is a generic positive review without specific technical details, so it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 59,
+    "text_snippet": "no new features in a",
+    "analysis": "The review expresses dissatisfaction with the lack of updates and mentions switching to another app. This is a complaint about the absence of new features or development, which falls under the category of feature requests or changes. According to the priority, FEATURE is the most appropriate since it's an explicit request for new features or changes.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 60,
+    "text_snippet": "great game great game love",
+    "analysis": "The review expresses positive sentiment about the game, stating it is great and the user enjoys playing it. There are no technical issues, feature requests, security concerns, performance problems, usability complaints, or energy-related issues mentioned. The review is generic praise without any specific feedback on technical aspects.",
+    "category": "OTHER"
+  },
+  {
+    "id": 61,
+    "text_snippet": "bad for battery i had",
+    "analysis": "The review explicitly mentions rapid battery drain, which falls under the ENERGY category. There are no other technical issues mentioned, so ENERGY is the most appropriate label.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 62,
+    "text_snippet": "good app but lacks important",
+    "analysis": "The review expresses satisfaction with the app's functionality and design, but criticizes the lack of updates, specifically the absence of Bluetooth Low Energy support for heart rate monitors. This is a request for a new feature (adding BLE support) which falls under the 'FEATURE' category. Although there is a mention of slow updates, the primary issue is the feature gap, making 'FEATURE' the most appropriate label according to the priority rules.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 63,
+    "text_snippet": "freezes on loss screen would",
+    "analysis": "The review mentions a freeze on the loss screen, which is a specific performance issue. It also expresses a desire to unlock a feature but overall describes the app as trash, which is a non-technical complaint. Since the freeze is a clear performance issue and the app being trash is a generic complaint, the priority order SECURITY > BUG > PERFORMANCE > ENERGY > USABILITY > FEATURE > OTHER applies. Performance issues take precedence over other categories, so the label should be PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 64,
+    "text_snippet": "drm ruins the experience the",
+    "analysis": "The review describes a licensing issue causing errors, force stops, and requiring reinstallation, which indicates a persistent technical problem affecting gameplay. This falls under BUG as it involves non-working features and crashes, outweighing other potential aspects.",
+    "category": "BUG"
+  },
+  {
+    "id": 65,
+    "text_snippet": "nice apps lack of stability",
+    "analysis": "The review mentions a lack of stability and crashes when running in the background, which indicates a bug. It also requests downloading and a downloaded list, which is a feature request. However, the crash is a concrete error, which takes priority over the feature request according to the priority rule. The player features lacking important ones is another feature request, but the bug is more critical. Since the crash is a bug and bugs have higher priority than features, the label should be BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 66,
+    "text_snippet": "? game freezes regularly.",
+    "analysis": "The user reports that the game freezes regularly, which indicates a performance issue. Freezes are typically associated with lag or temporary freezes, falling under the PERFORMANCE category. There is no mention of bugs, security concerns, energy issues, usability problems, or feature requests. The review is specific to performance, so it fits the PERFORMANCE category.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 67,
+    "text_snippet": "very good app for reflecting",
+    "analysis": "The review expresses positive sentiment about the app, stating it is 'very good' and the user 'adore[s] it'. There are no technical issues, feature requests, security concerns, performance problems, usability complaints, or energy-related issues mentioned. This falls under generic positive feedback, which is not covered by any specific category except 'OTHER'.",
+    "category": "OTHER"
+  },
+  {
+    "id": 68,
+    "text_snippet": "? cool for every day",
+    "analysis": "The review text is very brief and positive, stating 'cool for every day'. It does not describe any technical issue, bug, feature request, security concern, performance problem, usability issue, or energy drain. It is a generic positive comment without specific details, so it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 69,
+    "text_snippet": "this is excellent app",
+    "analysis": "The review states 'this is excellent app' which is a positive generic comment without any specific technical issues. It does not describe a bug, feature request, security concern, performance issue, usability problem, or energy drain. Therefore, it falls under the OTHER category as it is a non-technical comment.",
+    "category": "OTHER"
+  },
+  {
+    "id": 70,
+    "text_snippet": "heads up feature something's wrong",
+    "analysis": "The user is reporting an issue with the heads up feature where notifications persist after being dismissed. This indicates a malfunction in the feature, which falls under the BUG category as it describes incorrect behavior of the app. There is no mention of security, performance, usability, energy, or feature requests, so it aligns with BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 71,
+    "text_snippet": "terrible horrible graphics. tutorial takes",
+    "analysis": "The review contains multiple issues: poor graphics, slow loading, frequent disconnects, bugs and glitches, server problems, and lack of updates. Among these, bugs and glitches fall under BUG category. Other issues like graphics and performance might relate to other categories, but BUG is the most specific and highest priority as per the rules. The review also includes a generic complaint about the game being abandoned, but the primary technical issue is BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 72,
+    "text_snippet": "cool it's good but does",
+    "analysis": "The review expresses dissatisfaction with the user interface, specifically mentioning inefficient use of screen space and suggesting an alternative interaction method (drawing icons) instead of swiping. This falls under comments on user experience and design, which is the category for usability issues.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 73,
+    "text_snippet": "i want my money back",
+    "analysis": "The review expresses frustration about a purchase decision, inability to perform an action without upgrading, and subsequent technical issues including freezing and error messages. The primary concern is the inability to use the app without paying, which is a complaint about a subscription model, but the technical issues mentioned (freezing, error messages) align with a BUG report. However, the core issue is the pricing and subscription requirement, which falls under OTHER as it's a non-technical complaint. The technical issues are secondary. According to priority, OTHER is lower than BUG, but the main complaint is about the subscription, so OTHER is more appropriate.",
+    "category": "OTHER"
+  },
+  {
+    "id": 74,
+    "text_snippet": "excellent indeed i just have",
+    "analysis": "The review states that the app has a small problem with lights boosting to max when reading, which consumes battery faster. This indicates a performance issue related to battery consumption. The rest of the review is positive, but the specific issue falls under performance. According to the priority, performance is higher than usability or other categories. Therefore, the label is PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 75,
+    "text_snippet": "bad to many tutorials it",
+    "analysis": "The review mentions multiple issues: an abundance of tutorials, long duration, freezing, and a negative overall experience. The freezing indicates a technical issue, specifically a crash or graphical glitch, which falls under BUG. The long duration and abundance of tutorials relate to user experience and performance, but the freezing is the most critical issue. According to the priority, BUG is higher than PERFORMANCE and USABILITY. The overall negative sentiment is not specific enough to override the clear BUG report.",
+    "category": "BUG"
+  },
+  {
+    "id": 76,
+    "text_snippet": "ads to close to buttons",
+    "analysis": "The review expresses frustration with the placement of ads near buttons, which is a usability issue. It does not mention bugs, security, performance, energy, or feature requests. The user is complaining about the user interface and design, which falls under usability.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 77,
+    "text_snippet": "xperia c5503 my anti-virus scanned",
+    "analysis": "The review mentions an anti-virus scan flagging the application as potentially malicious, which directly relates to security concerns. There is no mention of technical errors, performance issues, or other categories. The primary concern is about the application's safety, falling under security. According to the priority, SECURITY is the highest category here.",
+    "category": "SECURITY"
+  },
+  {
+    "id": 78,
+    "text_snippet": "easy to use app this",
+    "analysis": "The review describes the app as easy to use and mentions that deals are easy to see. This is a positive comment about the user experience without specifying technical issues. It does not fall under BUG, FEATURE, SECURITY, PERFORMANCE, ENERGY, or any other technical category. It is a generic positive review about usability, but since it does not explicitly discuss UI/UX design or navigation, and the priority order does not include generic reviews under USABILITY, it fits under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 79,
+    "text_snippet": "great app its a fabulous",
+    "analysis": "The review describes the app as great, fabulous, and fast compared to media channels. This is a positive comment about performance without specifying technical issues like speed or latency. It does not report a bug, request a feature, raise security concerns, or address usability. The term 'fast' could relate to performance, but it is vague and not specific to technical performance metrics. Since the review is generic and positive, it falls under OTHER as it does not meet the criteria for any specific category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 80,
+    "text_snippet": "? it's better then most",
+    "analysis": "The review states that the app is better than most slots on the Android market. This is a generic positive comment without specific technical issues, complaints, or feature requests. It does not mention bugs, security concerns, performance issues, energy consumption, usability problems, or specific feature requests. Therefore, it falls under the OTHER category as it is a non-technical comment.",
+    "category": "OTHER"
+  },
+  {
+    "id": 81,
+    "text_snippet": "awesome app .. love every",
+    "analysis": "The review is positive and expresses satisfaction with the app. It mentions love for the app and appreciation for the 'my recipes' feature. There are no technical issues, security concerns, performance problems, usability complaints, energy drain, or feature requests. The content is generic praise and does not fall into any specific category defined above.",
+    "category": "OTHER"
+  },
+  {
+    "id": 82,
+    "text_snippet": "awesome it is really good",
+    "analysis": "The review expresses positive sentiment about the app's creativity and overall quality, but mentions a specific issue with the app's size causing problems on devices with small memory. Since the issue is related to device storage and memory constraints, which falls under technical performance or usability, but the priority order dictates that if there's any technical issue, it should be classified as PERFORMANCE if not higher. However, the issue described is about storage space, which is a common performance concern. But note that the review is mostly positive and the issue is minor. According to the priority, if there's a bug or performance issue, it takes precedence. Here, the issue is about the app size causing problems, which is a performance issue. However, the review is overwhelmingly positive and the issue is not explicitly technical but rather a usability or performance concern. Given the priority, we must classify it as PERFORMANCE if it's technical. But note that the review also has non-technical praise. The issue mentioned is 'size is so big for small memory user', which is a performance issue because it affects how the app runs on low-memory devices. However, the review is ambiguous because it mixes positive and negative. According to the rule, if there's any technical issue, we must classify it as the highest priority technical category. Here, the technical issue is about the app's size affecting performance on small memory devices, so it should be PERFORMANCE. But note that the review does not explicitly state a bug or crash, but rather a performance issue due to memory constraints. Since the priority is SECURITY > BUG > PERFORMANCE, and this is PERFORMANCE, it should be selected. However, the review is not entirely technical; it's a mix. But the rule says to select the most likely label according to the priority. The issue is technical and falls under PERFORMANCE. Therefore, the category is PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 83,
+    "text_snippet": "thanks thanks for all",
+    "analysis": "The text provided is a simple expression of gratitude without any specific content regarding the app's functionality, performance, or any other issue. It does not describe a bug, feature request, security concern, performance issue, usability problem, energy drain, or any other technical category. Since it is a generic positive comment without technical details, it falls under the OTHER category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 84,
+    "text_snippet": "nice app. it is very",
+    "analysis": "The review expresses a positive sentiment about the app being useful and nice, but does not specify any technical issue or feature request. It is a generic positive comment without details on bugs, features, security, performance, usability, or energy consumption.",
+    "category": "OTHER"
+  },
+  {
+    "id": 85,
+    "text_snippet": "amazing well designed but confusing.",
+    "analysis": "The review describes the app as well-designed but confusing, and mentions a discrepancy with the reported free space compared to Android. This is a comment on the user interface and user experience, specifically addressing confusion in the design and a potential issue with how free space is calculated or displayed. However, the discrepancy could be interpreted as a bug or a feature issue, but the primary focus is on the confusion and design, which falls under usability. The mention of free space discrepancy might lean towards a bug, but the review explicitly states it's about the design being confusing, so usability is the most appropriate category based on the priority rules. Since usability is higher priority than bug in this case, and the review doesn't explicitly request a feature change, usability is selected.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 86,
+    "text_snippet": "i love it but... its",
+    "analysis": "The review expresses positive sentiment about the app's ability to play custom songs, which is a feature not mentioned in the categories. However, it explicitly requests fixes for bugs (buttons not working during songs) and UI issues (circles not syncing with music). According to the priority, BUG is higher than FEATURE, so BUG should be selected.",
+    "category": "BUG"
+  },
+  {
+    "id": 87,
+    "text_snippet": "this game is awesome but",
+    "analysis": "The review expresses a positive sentiment about the game but mentions a technical limitation (insufficient storage space) as a reason for uninstalling. This is a non-technical comment about hardware compatibility, which does not fit into any specific technical category. Since it is not a bug, feature request, security concern, performance issue, usability complaint, or energy drain, it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 88,
+    "text_snippet": "good this game is awesome",
+    "analysis": "The text expresses a positive sentiment about the game being good and awesome for the family. It does not describe any technical issues, feature requests, security concerns, performance problems, usability issues, or energy consumption. The comment is generic and non-technical, fitting the 'OTHER' category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 89,
+    "text_snippet": "bad!!! it is not use",
+    "analysis": "The review contains multiple issues: 'not use friendly' indicates poor usability, 'eats alot of ram space' refers to memory usage, and 'laggy' indicates performance issues. According to the priority rule, performance issues are more critical than usability issues. However, the review also mentions RAM usage, which is related to performance. Since performance issues take precedence, the label should be PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 90,
+    "text_snippet": "dinesh maity i'm too happy",
+    "analysis": "The review expresses happiness and gratitude for the app, but does not describe any technical issue, feature request, security concern, performance problem, usability issue, or energy drain. It is a generic positive sentiment without specific feedback on any category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 91,
+    "text_snippet": "good app. what a nice",
+    "analysis": "The review expresses positive sentiment about the app, mentioning its helpfulness for daily preparation. There are no technical issues, security concerns, performance problems, usability complaints, energy drain, or feature requests mentioned. It is a generic positive review without specific feedback on any category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 92,
+    "text_snippet": "the app dont work i",
+    "analysis": "The review describes the app not working, inability to log in, and mentions an error preventing account access. This indicates a problem with the app's functionality, specifically login issues and account viewing errors. These are concrete errors in the app's behavior, fitting the BUG category. There are no mentions of new features, security concerns, performance issues, energy drain, usability problems, or other categories. The priority order places BUG above other potential categories, so BUG is the most appropriate label.",
+    "category": "BUG"
+  },
+  {
+    "id": 93,
+    "text_snippet": "fix the damm bug!!! cant",
+    "analysis": "The review expresses frustration about a bug preventing the app from starting after an update. It mentions a specific error and implies potential compensation issues, but the primary issue is the bug itself. According to the priority, BUG is the most likely category.",
+    "category": "BUG"
+  },
+  {
+    "id": 94,
+    "text_snippet": "fun w/ few freezes &",
+    "analysis": "The review mentions fun aspects, but also includes issues with booting out and freezing during gameplay. The freezing is a specific technical issue, while booting out could be related to crashes or bugs. Considering the priority order, freezing is a clear bug, and booting out is likely a crash or similar issue, which falls under BUG. The fun aspect is a positive comment and not a technical issue.",
+    "category": "BUG"
+  },
+  {
+    "id": 95,
+    "text_snippet": "frustrating freezes at level 4.",
+    "analysis": "The review mentions 'frustrating freezes' which indicates a temporary stoppage or lag in the application. This falls under performance issues as it directly references smoothness or freezes. There is no mention of bugs, security concerns, energy issues, usability problems, or feature requests. The priority order places performance above usability and other categories, so performance is the most appropriate label.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 96,
+    "text_snippet": "live wallpaper this is a",
+    "analysis": "The review states 'live wallpaper this is a grate app' which appears to be a positive comment about the app being good, but contains a typo in 'grate' likely meaning 'great'. There are no technical issues reported, no bugs, no feature requests, no security concerns, no performance issues, no energy concerns, and no usability feedback. The comment is generic and positive, so it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 97,
+    "text_snippet": "nostalgia loved this game in",
+    "analysis": "The review expresses nostalgia for past games and requests for specific games to be ported to Android. It does not describe any technical issues, errors, security concerns, performance problems, usability issues, or energy consumption. The request is for a new feature or change, but it is not explicit as it refers to existing games being brought to a platform. However, the priority order requires that if there are multiple issues, the highest priority is chosen. Here, there is no technical issue at all, so the most appropriate category is FEATURE since it is an explicit request for a new feature (porting existing games).",
+    "category": "FEATURE"
+  },
+  {
+    "id": 98,
+    "text_snippet": "? great for people on",
+    "analysis": "The review expresses positive sentiment about the app being great for people on the go and states love for the app. It does not mention any technical issues, security concerns, performance problems, usability flaws, feature requests, or energy consumption. The content is generic praise without specific feedback, so it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 99,
+    "text_snippet": "i like t this game",
+    "analysis": "The review expresses a positive sentiment about the game being cool, but it does not specify any technical issue, feature request, security concern, performance problem, usability complaint, or energy drain. It is a generic positive comment without any specific details falling under the defined categories.",
+    "category": "OTHER"
+  },
+  {
+    "id": 100,
+    "text_snippet": "adware this app is adware",
+    "analysis": "The review explicitly mentions 'adware' and 'virus', which are security-related concerns. This falls under the SECURITY category as it involves privacy and potential malware.",
+    "category": "SECURITY"
+  },
+  {
+    "id": 101,
+    "text_snippet": "? fun for kid .thanks",
+    "analysis": "The review text is short and positive, expressing enjoyment and appreciation for the app's fun content for kids. It does not describe any technical issue, error, or complaint. The content is generic and non-technical, falling under the OTHER category as it does not fit the specific categories for bugs, features, security, performance, usability, or energy.",
+    "category": "OTHER"
+  },
+  {
+    "id": 102,
+    "text_snippet": "satisfied it played for me",
+    "analysis": "The review states that the app played an online streaming audio URL as expected. This indicates the app functioned correctly for the user's intended purpose. There is no mention of errors, crashes, new feature requests, security concerns, performance issues, usability problems, or energy drain. The comment is positive and confirms the app's basic functionality without specifying any technical issue. Since it does not fit any of the defined categories except for the most general one, it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 103,
+    "text_snippet": "fast and easy to use",
+    "analysis": "The review describes the app as fast and easy to use, with no faults found, and recommends it. However, it explicitly requests the addition of GIF support, which is a feature missing from the current version, indicating a feature request.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 104,
+    "text_snippet": "simple its does the job",
+    "analysis": "The review states that the app 'does the job' without specifying any particular issue. It is a generic positive statement lacking details on bugs, features, security, performance, usability, or energy consumption. Since it does not fall into any specific category and is not a technical complaint, it should be labeled as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 105,
+    "text_snippet": "easy to use and accurate",
+    "analysis": "The review describes the app as easy to use and accurate, comparing it to a real magnetic compass. This indicates positive feedback on usability and functionality without specifying technical issues. There is no mention of bugs, security concerns, performance problems, energy drain, or feature requests. The comment is generic and positive, so it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 106,
+    "text_snippet": "this game is fun but",
+    "analysis": "The review mentions the game being fun, which is a positive aspect, but then describes frequent freezing, which indicates a performance issue. The word 'frustrated' suggests the freezing causes usability problems. Considering the priority order, performance issues are more critical than usability ones. Therefore, the label should be PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 107,
+    "text_snippet": "laggy very slow even on",
+    "analysis": "The user describes the app as laggy and very slow, which directly relates to performance issues. There is no mention of bugs, security concerns, or other categories. The term 'laggy' specifically indicates performance problems, so the category is PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 108,
+    "text_snippet": "used to like it was",
+    "analysis": "The review describes a problem with the game freezing after an update. This indicates a performance issue, specifically lag or temporary freezes. According to the priority, PERFORMANCE is higher than USABILITY or other potential categories. There is no mention of security, bugs, energy, or feature requests. The issue is technical and directly related to gameplay performance.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 109,
+    "text_snippet": "fast but no session restore",
+    "analysis": "The review mentions the browser being fast, which relates to performance, but the main complaint is the lack of session restore feature, which is a missing functionality. Since the user is requesting a new feature, this falls under the FEATURE category. The performance aspect is secondary and not the primary issue.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 110,
+    "text_snippet": "thanks :-) xperia sp it's",
+    "analysis": "The review expresses gratitude and positive sentiment about the Xperia SP phone being inspiring. There are no technical issues, bugs, security concerns, performance problems, usability complaints, energy issues, or feature requests mentioned. It is a generic positive review without any specific technical content, so it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 111,
+    "text_snippet": "separate app for personal videos",
+    "analysis": "The review expresses confusion about a feature removal and its porting, which is a complaint about the app's functionality or changes. It does not specify technical errors, security issues, performance problems, energy consumption, or usability concerns. Instead, it is a request for a feature that was previously available, indicating a desire for a new or restored feature. This falls under the 'FEATURE' category as it is an explicit request for a change to the app.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 112,
+    "text_snippet": "excellent app nice to use",
+    "analysis": "The review is positive and generic, expressing satisfaction with the app without mentioning any specific technical issues. It does not describe errors, crashes, new feature requests, security concerns, performance problems, usability issues, or energy drain. Since it is a generic positive review without technical details, it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 113,
+    "text_snippet": "? simple quick and excellent",
+    "analysis": "The review text is very brief and positive, stating that the app is simple, quick, and excellent. There are no technical issues, errors, feature requests, security concerns, performance problems, usability complaints, or energy-related issues mentioned. It is a generic positive review without specific feedback, so it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 114,
+    "text_snippet": "unplayable freezes every time i",
+    "analysis": "The review describes frequent freezing issues during gameplay, which is a specific performance problem. Although it mentions the game being unplayable, the primary issue is the freezing, which falls under performance. There are no other issues like bugs, security, or usability mentioned.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 115,
+    "text_snippet": "gud it's funny game but",
+    "analysis": "The review mentions a freeze when clicking 'add friends', which is a specific error, and references multiple bugs including issues with in-game purchases and game mechanics. The primary issue is the freeze, which is a concrete error, and other bugs are mentioned. According to the priority, BUG is the most likely category.",
+    "category": "BUG"
+  },
+  {
+    "id": 116,
+    "text_snippet": "didn't get the full features",
+    "analysis": "The review mentions a navigation button issue and a background problem, which are visual and functional problems. These are technical issues related to the app's display and functionality. Since the review does not explicitly mention security, performance, energy, or usability in a way that fits those categories, and the issues are about the UI not working as expected, this falls under usability. However, note that the review also states not getting full features, which might imply a feature issue, but the primary complaint is about the navigation button and background, which are UI-related. According to the priority, usability is higher than feature, so usability is selected.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 117,
+    "text_snippet": "? this app is so",
+    "analysis": "The review expresses a positive sentiment about the app's appearance, describing it as 'cute'. This is a generic compliment and does not specify any technical issue, feature request, security concern, performance problem, usability issue, or energy drain. It falls under non-technical comments, which is the 'OTHER' category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 118,
+    "text_snippet": "battery level bug battery level",
+    "analysis": "The review mentions a battery level bug where the battery level is not in sync, which is a technical error, and also refers to an issue with removing an icon from the widget. However, the battery level issue is a clear BUG, while the widget issue might relate to UI but is less specific. According to the priority, BUG takes precedence. The battery level being out of sync is a concrete error in behavior, so the primary label should be BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 119,
+    "text_snippet": "optimalisation for 4.4 is pretty",
+    "analysis": "The review mentions issues with the app's performance, specifically lag and freezes, and a bug where the track cannot be unpause and the player skips tracks. It also notes that the artwork freezes frequently. The review contains multiple technical issues, but the priority order is SECURITY > BUG > PERFORMANCE > ENERGY > USABILITY > FEATURE > OTHER. The lag and freezes fall under PERFORMANCE, while the bug with unpause and skipping tracks is a BUG. However, since PERFORMANCE has higher priority, the label should be PERFORMANCE. The review also includes a positive comment about the app being the best and a request for fixing issues, but the main focus is on the technical problems. The issue with artwork freezing is a PERFORMANCE issue, and the lag is also PERFORMANCE. The bug with unpause is a BUG, but PERFORMANCE takes precedence. The review does not mention security, energy, or usability directly, so those are not applicable. The overall label should be PERFORMANCE based on the priority rules.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 120,
+    "text_snippet": "integration of emails is nice.",
+    "analysis": "The review expresses satisfaction with email integration but also requests additional features from MS Exchange, mentions frustration due to lack of features, and suggests automation features. These are explicit requests for new functionalities, which aligns with the 'FEATURE' category. There are no reports of errors, security issues, performance problems, or other technical concerns.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 121,
+    "text_snippet": "very slow intresting to play",
+    "analysis": "The review states 'very slow' which indicates performance issues, and 'interesting to play' which is a generic comment. According to the priority, performance issues are more critical than generic comments, so the label should be PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 122,
+    "text_snippet": "? quite reliable and user",
+    "analysis": "The review states that the app is 'quite reliable and user friendly'. This is a positive comment about the app's performance and user experience without specifying technical issues. Reliability could relate to performance, but the term 'user friendly' is more about usability. Since the review is generic and positive, it does not clearly fit into BUG, FEATURE, SECURITY, PERFORMANCE, or ENERGY. It is a non-technical comment that aligns with the OTHER category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 123,
+    "text_snippet": "not connecting to facebook using",
+    "analysis": "The review describes a specific issue where the game fails to connect to Facebook, causing it to crash or freeze. This is a concrete error in the app's functionality, which falls under the BUG category. The user explicitly mentions a non-working feature (Facebook connection) and the app's incorrect behavior (crashing). There are no references to security, performance, usability, energy, or feature requests. The issue is clear and directly related to a bug, so it should be labeled as BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 124,
+    "text_snippet": "best of i have tried",
+    "analysis": "The review states that the app is the best among other weather apps, which is a positive generic comment without specific technical issues. It does not mention bugs, security concerns, performance issues, energy consumption, usability problems, or feature requests. Since it is a generic positive review, it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 125,
+    "text_snippet": "ok but buggy freezes my",
+    "analysis": "The review mentions 'buggy freezes' and 'lag', which are specific technical issues related to performance. Although it includes a positive comment about the game being fun, the primary concern is performance issues. According to the priority, PERFORMANCE is higher than FEATURE or OTHER. The mention of 'angry birds' is irrelevant for categorization.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 126,
+    "text_snippet": "brightness level bugs still many",
+    "analysis": "The review mentions multiple bugs specifically related to brightness level, indicating errors in the app's functionality. This falls under the BUG category as it reports concrete errors in the app's behavior.",
+    "category": "BUG"
+  },
+  {
+    "id": 127,
+    "text_snippet": "good app but not bad",
+    "analysis": "The review states that the app works amazingly, which is a positive aspect. However, it also mentions that the app consumes high battery and data, which are technical issues related to energy and performance. According to the priority rule, ENERGY and PERFORMANCE are both technical issues, but ENERGY has higher priority than PERFORMANCE. Since the review contains both, we must choose the most likely label. The primary concern expressed is high battery consumption, which falls under ENERGY. The data consumption might be related but is less emphasized. Therefore, the label should be ENERGY.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 128,
+    "text_snippet": "excellent it's a good app",
+    "analysis": "The review states that the app is good for searching jobs, which is a positive comment but does not specify any technical issue. It does not mention bugs, features, security, performance, usability, energy, or any specific problem. Therefore, it falls under the OTHER category as it is a generic positive review without technical details.",
+    "category": "OTHER"
+  },
+  {
+    "id": 129,
+    "text_snippet": "kobe is the best f",
+    "analysis": "The text appears to be a generic positive review about Kobe, likely referring to Kobe Bryant, without any specific technical issues related to the mobile application. It does not mention bugs, features, security, performance, usability, energy, or any technical aspect. It is a non-technical comment, possibly about a sports figure or general praise, which falls under the OTHER category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 130,
+    "text_snippet": "pro features bug fixed please",
+    "analysis": "The review mentions a bug fix request for a specific issue ('pro features bug') that is not working on a particular Android version (KitKat). This indicates a request for a fix to an existing feature, which falls under the BUG category. However, the review also contains a feature request for 'pro features', but the primary focus is on fixing a bug. Since the review explicitly asks to fix a bug, it aligns with the BUG category. The presence of a feature request does not override the bug fix request as per the priority rule.",
+    "category": "BUG"
+  },
+  {
+    "id": 131,
+    "text_snippet": "must have very useful. worth",
+    "analysis": "The review expresses a positive opinion about the app being very useful and worth 5 stars. It does not describe any technical issues, errors, or problems. The content is generic praise without specific details about bugs, features, security, performance, usability, or energy consumption. Therefore, it falls under the OTHER category as it does not fit any of the specific technical categories.",
+    "category": "OTHER"
+  },
+  {
+    "id": 132,
+    "text_snippet": "sms service not working plz",
+    "analysis": "The review mentions that the SMS service is not working, which indicates a specific error in functionality. This falls under the BUG category as it describes a non-working feature. The user also expresses urgency to fix the issue, but the core problem is a functional bug. There are no other issues like security, performance, or usability mentioned. The review does not contain multiple issues, so the most appropriate category is BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 133,
+    "text_snippet": "still not marched triumphant upon",
+    "analysis": "The review criticizes the absence of a feature (voice call) that is available in competing services, expresses frustration about the lack of functionality, and mentions that the current feature is insufficient. This is an explicit request for a new feature (voice call) that is not present, which fits the 'FEATURE' category. There are no reports of errors, crashes, security issues, performance problems, energy drain, or usability concerns directly addressed. The main issue is the lack of a feature, so 'FEATURE' is the most appropriate label according to the priority rules.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 134,
+    "text_snippet": "generally a good game. difficult",
+    "analysis": "The review describes the game as generally good but mentions difficulty in using strategy during attacks. This is a comment on the user experience, specifically about usability issues in the game's interface or navigation. Since it does not fit into higher priority categories like BUG, SECURITY, or PERFORMANCE, it falls under USABILITY.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 135,
+    "text_snippet": "? this is something wonderful",
+    "analysis": "The review states 'this is something wonderful for paper readers'. This is a positive comment about the app's utility for reading papers, but it does not specify any technical issue, feature request, security concern, performance problem, usability issue, or energy drain. It is a generic positive review without any concrete technical details, so it falls under the OTHER category as it does not fit the other categories and is not ambiguous in a way that requires prioritization.",
+    "category": "OTHER"
+  },
+  {
+    "id": 136,
+    "text_snippet": "i think it's a very",
+    "analysis": "The review expresses positive sentiment about the app being creative and good, without mentioning any specific technical issues, errors, or problems. It does not fall under BUG, FEATURE, SECURITY, PERFORMANCE, USABILITY, or ENERGY. Therefore, it is classified as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 137,
+    "text_snippet": "? love this site and",
+    "analysis": "The review expresses positive sentiment about the site and app without mentioning any specific issues. It does not describe errors, crashes, new feature requests, security concerns, performance problems, usability issues, or energy drain. The content is generic praise and falls under non-technical comments, so it should be labeled as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 138,
+    "text_snippet": "can play again for a",
+    "analysis": "The review expresses positive sentiment about the game and the user's ability to play after some patience. It mentions occasional difficulty in accessing games, which might be attributed to the user's phone rather than the app. There are no technical issues reported, no bugs, no crashes, no security concerns, no performance issues, no usability problems, and no energy concerns. The user is happy and engaged, so the category is OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 139,
+    "text_snippet": "dissapointed you don't do united",
+    "analysis": "The review expresses disappointment about the absence of a feature related to the United Kingdom. This is a complaint about the availability of a specific feature, which falls under the category of feature requests or missing features. According to the priority, FEATURE is higher than OTHER, so it should be labeled as FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 140,
+    "text_snippet": "? this app is not",
+    "analysis": "The review expresses dissatisfaction with the app's cost and mentions visual issues (not being able to see the fish) and performance issues (freezes). According to the priority, BUG and PERFORMANCE are technical issues, but the primary concern here is the user's complaint about the app's functionality and cost. Since the review contains both a BUG (freezes) and a FEATURE/OTHER (cost), but the priority order is SECURITY > BUG > PERFORMANCE > ENERGY > USABILITY > FEATURE > OTHER, the most likely category is BUG because the freeze is a concrete error. However, the cost complaint is not technical. But the review is ambiguous with multiple issues. The freeze is a BUG, but the inability to see the fish might be a BUG or a FEATURE issue. The cost is OTHER. Since the priority is BUG, and the freeze is a BUG, we select BUG. But note that the review also says 'u cant even see the fish' which could be a BUG or a missing FEATURE. However, the priority is BUG, so we choose BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 141,
+    "text_snippet": "frustrating lack of features requested",
+    "analysis": "The review expresses frustration over the absence of features, specifically the inability to save to an external SD card and the general lack of feature updates. It does not mention bugs, crashes, security issues, performance problems, battery drain, or usability concerns directly. The user is requesting new features or changes to existing ones, which aligns with the 'FEATURE' category. There is no indication of technical issues like bugs or security, so 'FEATURE' is the most appropriate label.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 142,
+    "text_snippet": "micromax a177 that is the",
+    "analysis": "The review text expresses a positive opinion about the app being the best without describing any specific issue or feature request. It does not mention bugs, security concerns, performance issues, energy consumption, usability problems, or feature requests. Since it is a generic positive comment without technical details, it falls under the OTHER category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 143,
+    "text_snippet": "fun and challenging! one of",
+    "analysis": "The review expresses positive sentiment about the game being fun and challenging, but does not mention any technical issues, security concerns, performance problems, energy consumption, usability issues, or feature requests. It is a generic positive review without specific technical details.",
+    "category": "OTHER"
+  },
+  {
+    "id": 144,
+    "text_snippet": "android un-friendly the app is",
+    "analysis": "The review criticizes the app's development for Android being less developed than iOS and mentions the lack of Chromecast support as a fundamental feature omission. This indicates a comparison and feature gap, but does not specify a technical error, security issue, performance problem, energy drain, or usability complaint. It is a general complaint about missing features and platform differences, which falls under the category of feature requests or gaps. However, since it does not explicitly request a new feature but points out an existing one missing, and given the priority order, it is closer to a feature-related issue. But note that the category 'FEATURE' is for explicit requests for new features. Here, it is more of a complaint about an existing feature missing, which is still under the umbrella of feature-related issues. According to the priority, FEATURE is above OTHER, so it should be labeled as FEATURE. However, the text does not explicitly request a new feature but laments the absence of one. In the absence of a clear bug or security, and given that it is about a feature not present, it fits 'FEATURE'.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 145,
+    "text_snippet": "i dont have a sd",
+    "analysis": "The review states that the user cannot use the app because they don't have an SD card. This indicates a limitation in the app's functionality that is not related to technical issues like bugs, security, performance, energy, or usability. It is a complaint about a feature requirement that is not inherent to the app, such as needing external hardware. This falls under non-technical comments, which is the OTHER category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 146,
+    "text_snippet": "this is excellent app really",
+    "analysis": "The review states that the app is excellent and really helpful, which is a positive generic review without any specific technical issues. It does not mention bugs, security concerns, performance issues, energy consumption, usability problems, or feature requests. Therefore, it falls under the OTHER category as it is a non-technical comment.",
+    "category": "OTHER"
+  },
+  {
+    "id": 147,
+    "text_snippet": "facebook connection error when i",
+    "analysis": "The review describes a specific error where the Facebook connection fails, causing the game to freeze and require a force quit. This indicates a crash or non-working feature related to the Facebook integration, which falls under the BUG category. There is no mention of security, performance, usability, feature requests, energy, or other generic issues. The issue is technical and directly related to app functionality, so it should be labeled as BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 148,
+    "text_snippet": "it is good but not",
+    "analysis": "The review is vague and does not specify any concrete issue. It contains non-technical comments and is unclear, so it falls under OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 149,
+    "text_snippet": "great best for baby's five",
+    "analysis": "The review text 'great best for baby's five' appears to be a positive comment about the app being good for babies, but it is vague and does not specify any technical issue. It does not mention bugs, features, security, performance, usability, or energy consumption. Since it is a generic positive review without technical details, it falls under the OTHER category as it does not fit any specific technical issue.",
+    "category": "OTHER"
+  },
+  {
+    "id": 150,
+    "text_snippet": "f**** if during next 24",
+    "analysis": "The review contains a demand for a specific feature (obtaining a 4-star card via summon function) and expresses dissatisfaction with the current sharing options, preferring Google Plus over Facebook. This falls under feature requests for new or modified functionality. There is no mention of bugs, security, performance, energy, or usability issues. The second part about Facebook and Google Plus is also a feature request for alternative sharing methods. Since feature requests are explicitly covered in the 'FEATURE' category, and there are no other issues, the label is FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 151,
+    "text_snippet": "2.6 thish app is very",
+    "analysis": "The review states that the app is 'very useful', which is a positive but generic comment without specific technical details. It does not describe any bugs, security issues, performance problems, usability concerns, energy drain, or feature requests. Since it is a non-technical compliment, it falls under the OTHER category.",
+    "category": "OTHER"
+  },
+  {
+    "id": 152,
+    "text_snippet": "nice but buggy some times",
+    "analysis": "The review mentions bugs such as the clock not stopping when a move is made and allows for cheating by entering multiple queens, which are concrete errors in the app's behavior. There is also a complaint about cheaters, which falls under security concerns. However, according to the priority rule, BUG takes precedence over SECURITY. The review also includes a generic complaint about the app being 'awfull' and a feature request to fix the issue, but the primary issue is a bug. Since BUG is the highest priority here, it should be selected.",
+    "category": "BUG"
+  },
+  {
+    "id": 153,
+    "text_snippet": "not good every time i",
+    "analysis": "The review describes an error when attempting to unfollow a user, which is a concrete error in app behavior. It also mentions a security code input, which could relate to authentication or security concerns. However, the primary issue is the error message during unfollow, which fits the BUG category. The security code part might be a feature or a security concern, but the explicit error report takes precedence according to the priority rule.",
+    "category": "BUG"
+  },
+  {
+    "id": 154,
+    "text_snippet": "not showing today current temperature",
+    "analysis": "The review describes multiple issues: the app not showing current temperature, inability to search locations in India, and the auto-update feature not working with an error. These issues involve app functionality not working as expected, which falls under the BUG category. There is no mention of security concerns, performance issues, energy drain, usability problems, or feature requests. The user is reporting errors in the app's behavior, so the most appropriate category is BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 155,
+    "text_snippet": "awesome game truly a fun",
+    "analysis": "The review expresses positive sentiment about the game but also mentions specific issues like bugs and random crashes. According to the priority rule, BUG is higher than FEATURE, and since the user is reporting concrete errors and crashes, the label should be BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": 156,
+    "text_snippet": "lots of really useful info",
+    "analysis": "The review contains positive comments about the app's information being useful, but also a minor usability concern regarding the forms being difficult to use. Since the issue is about user experience and interface difficulty, it falls under usability. According to the priority, usability is higher than feature or other, but no other issues are present, so usability is the most appropriate category.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 157,
+    "text_snippet": "error fix the errors gets",
+    "analysis": "The review mentions 'error fix' indicating a problem with the app, and 'gets stucked' suggesting the app is not functioning properly. This falls under a bug report as it describes a non-working feature or incorrect behavior. According to the priority, BUG is higher than other categories like FEATURE or OTHER.",
+    "category": "BUG"
+  },
+  {
+    "id": 158,
+    "text_snippet": "? does what it says!",
+    "analysis": "The review expresses happiness and satisfaction with the app, but does not specify any technical issue, feature request, security concern, performance problem, usability complaint, or energy drain. It is a generic positive sentiment without any concrete details falling into the defined categories.",
+    "category": "OTHER"
+  },
+  {
+    "id": 159,
+    "text_snippet": "excellent best app best game",
+    "analysis": "The review expresses strong positive sentiment with words like 'excellent', 'best', and 'game ever'. It does not mention any technical issues, errors, performance problems, security concerns, usability flaws, or feature requests. The comment about playing for hours is generic and does not specify any problem. According to the priority rules, this falls under OTHER since it lacks technical details.",
+    "category": "OTHER"
+  },
+  {
+    "id": 160,
+    "text_snippet": "very nice for all please",
+    "analysis": "The review mentions a positive sentiment with 'very nice for all please some improve diesel shed'. The phrase 'please some improve' indicates a desire for enhancement, and 'diesel shed' might refer to a specific feature or context, but it is unclear. Since the request is for improvement, it aligns with a feature request. However, the unclear reference to 'diesel shed' makes it ambiguous, but the primary intent is to request an improvement, which fits the 'FEATURE' category according to the priority rules.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 161,
+    "text_snippet": "do not update... if you're",
+    "analysis": "The review expresses a desire to revert to a previous version of the app due to missing features from an update. It does not report an error, crash, or technical issue. Instead, it is a request for information or advice about a feature change, which falls under the category of a feature request or a general complaint about changes, but not a technical issue. According to the priority, FEATURE is the most appropriate since it involves a request for existing features to be restored or comments on changes, but note that the review is not explicitly requesting a new feature but rather lamenting the removal of existing ones. However, the priority order places FEATURE above OTHER, so it should be selected. The review does not mention security, bugs, performance, energy, or usability issues directly. It is more about user experience and feature availability, which aligns with FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 162,
+    "text_snippet": "wow this app is too",
+    "analysis": "The review expresses a positive sentiment about the app without specifying any technical issue. It does not mention bugs, features, security, performance, usability, or energy consumption. Since it is a generic positive comment without technical details, it falls under OTHER.",
+    "category": "OTHER"
+  }
+]
