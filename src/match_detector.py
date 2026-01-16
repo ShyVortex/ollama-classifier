@@ -16,7 +16,7 @@ output_dir = os.path.join(data_dir, 'output')
 output_file = os.path.join(output_dir, 'comparison_result.json')
 
 
-def main(clap_file, model_family, model_file):
+def main(clap_file, model_family, model_file, prediction_source):
 
     os.makedirs(output_dir, exist_ok=True)
 
@@ -46,7 +46,7 @@ def main(clap_file, model_family, model_file):
 
     clap_dict = dict(zip(clap_df["id"], clap_df["category"]))
 
-    model_path = os.path.join(predictions_root, model_family, model_file)
+    model_path = os.path.join(predictions_root, prediction_source, model_family, model_file)
 
     if not os.path.isfile(model_path):
         print(f"ERROR: Model file not found: {model_path}")
@@ -122,6 +122,14 @@ if __name__ == "__main__":
     )
 
     parser.add_argument(
+        "--prediction-source",
+        type=str,
+        required=True,
+        choices=["dataset", "sample"],
+        help="Prediction source inside data/predictions (dataset | sample)"
+    )
+
+    parser.add_argument(
         "--model",
         type=str,
         required=True,
@@ -130,4 +138,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    main(args.clap, args.model_family, args.model)
+    main(args.clap, args.model_family, args.model, args.prediction_source)
