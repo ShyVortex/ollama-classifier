@@ -28,5 +28,947 @@
     "text_snippet": "fast and speed application...",
     "analysis": "Found keywords: PERFORMANCE: ['fast', 'speed'] | Detected PERFORMANCE keywords.",
     "category": "PERFORMANCE"
+  },
+  {
+    "id": 6,
+    "text_snippet": "fun widget good selection of...",
+    "analysis": "Found keywords: USABILITY: ['color'], OTHER: ['good'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 7,
+    "text_snippet": "? this is cool. but...",
+    "analysis": "Found keywords: PERFORMANCE: ['load'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 8,
+    "text_snippet": "simple to use good and...",
+    "analysis": "Found keywords: USABILITY: ['simple'], OTHER: ['good'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 9,
+    "text_snippet": "i love it but bugs...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug'], OTHER: ['love'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 10,
+    "text_snippet": "disappointed freezes on start n...",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['freeze'], OTHER: ['refund', 'star'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 11,
+    "text_snippet": "good application best news application...",
+    "analysis": "Found keywords: FEATURE: ['add', 'feature'], OTHER: ['good', 'best'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 12,
+    "text_snippet": "an excellent offline rss reader...",
+    "analysis": "Found keywords: BUG: ['error'], SECURITY: ['auth'], PERFORMANCE: ['ram'], USABILITY: ['simple'], FEATURE: ['feature', 'can i'], OTHER: ['install', 'uninstall', 'excellent'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 13,
+    "text_snippet": "unable to sign in with...",
+    "analysis": "Found keywords: BUG: ['fix', 'freeze'], SECURITY: ['sign in'], PERFORMANCE: ['freeze'], USABILITY: ['touch'], FEATURE: ['can i'], OTHER: ['star'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 14,
+    "text_snippet": "needs updating again ! i...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug'], PERFORMANCE: ['speed'], FEATURE: ['need', 'improve'], OTHER: ['good', 'star'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 15,
+    "text_snippet": "dont waste your time !!!...",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['load', 'freeze'], OTHER: ['waste'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 16,
+    "text_snippet": ":/ i am still confused...",
+    "analysis": "Found keywords: USABILITY: ['confuse'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 17,
+    "text_snippet": "ok i guess just fix...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug', 'start up'], OTHER: ['star'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 18,
+    "text_snippet": "pretty good the app is...",
+    "analysis": "Found keywords: USABILITY: ['button', 'difficult', 'text'], FEATURE: ['feature'], OTHER: ['good'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 19,
+    "text_snippet": "not good not bad using...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug'], OTHER: ['good', 'bad'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 20,
+    "text_snippet": "cant play it in my...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug', 'close'], PERFORMANCE: ['memory'], USABILITY: ['button'], OTHER: ['star'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 21,
+    "text_snippet": "absolutely wonderful! has all the...",
+    "analysis": "Found keywords: SECURITY: ['privacy', 'virus'], USABILITY: ['ui'], FEATURE: ['want', 'need', 'feature'], OTHER: ['good', 'excellent'] | Detected SECURITY keywords.",
+    "category": "SECURITY"
+  },
+  {
+    "id": 22,
+    "text_snippet": "htc one s great app...",
+    "analysis": "Found keywords: OTHER: ['nice'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 23,
+    "text_snippet": "any time avialable for read...",
+    "analysis": "Found keywords: OTHER: ['good'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 24,
+    "text_snippet": "straightforward useful very useful for...",
+    "analysis": "Found keywords: USABILITY: ['interface', 'difficult'], FEATURE: ['feature'], OTHER: ['bad', 'useful'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 25,
+    "text_snippet": "my go to weather app...",
+    "analysis": "Found keywords: ENERGY: ['battery'] | Detected ENERGY keywords.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 26,
+    "text_snippet": "the app is good for...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug', 'close', 'force close'], USABILITY: ['design'], OTHER: ['good', 'pay'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 27,
+    "text_snippet": "4 stars .. interesting app....",
+    "analysis": "Found keywords: ENERGY: ['hot'], FEATURE: ['feature'], OTHER: ['star'] | Detected ENERGY keywords.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 28,
+    "text_snippet": "? have no idea how...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 29,
+    "text_snippet": "terrible horrible graphics. tutorial takes...",
+    "analysis": "Found keywords: BUG: ['bug', 'glitch', 'close', 'force close'], PERFORMANCE: ['load'], OTHER: ['terrible'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 30,
+    "text_snippet": "great but.... great but decrease...",
+    "analysis": "Found keywords: ENERGY: ['battery'] | Detected ENERGY keywords.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 31,
+    "text_snippet": "last update good job but...",
+    "analysis": "Found keywords: BUG: ['fix', 'error'], OTHER: ['good'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 32,
+    "text_snippet": "amazing. this app is perfection....",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 33,
+    "text_snippet": "issue with sound and video...",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['freeze'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 34,
+    "text_snippet": "ya this is great....",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 35,
+    "text_snippet": "excellent does what it says...",
+    "analysis": "Found keywords: OTHER: ['excellent'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 36,
+    "text_snippet": "it freezes evertime i open...",
+    "analysis": "Found keywords: BUG: ['fix', 'freeze'], PERFORMANCE: ['freeze'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 37,
+    "text_snippet": "i love it but... i...",
+    "analysis": "Found keywords: PERFORMANCE: ['memory'], USABILITY: ['screen'], ENERGY: ['consume'], FEATURE: ['feature'], OTHER: ['love', 'star'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 38,
+    "text_snippet": "beautiful widget. only problem i...",
+    "analysis": "Found keywords: ENERGY: ['battery'] | Detected ENERGY keywords.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 39,
+    "text_snippet": "whoah :0 i love the...",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['freeze'], OTHER: ['love'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 40,
+    "text_snippet": "no copy text feature this...",
+    "analysis": "Found keywords: USABILITY: ['ui', 'text'], FEATURE: ['add', 'wish', 'need', 'feature'], OTHER: ['good', 'star'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 41,
+    "text_snippet": "save to sd card i...",
+    "analysis": "Found keywords: PERFORMANCE: ['memory'], FEATURE: ['option'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 42,
+    "text_snippet": "great verry productive and usefull...",
+    "analysis": "Found keywords: OTHER: ['useful'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 43,
+    "text_snippet": "yep cool game this game...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 44,
+    "text_snippet": "new update not working well...",
+    "analysis": "Found keywords: BUG: ['freeze', 'not work'], PERFORMANCE: ['freeze'], OTHER: ['star'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 45,
+    "text_snippet": "front camera it is upside...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 46,
+    "text_snippet": "excellent app. clean and easy...",
+    "analysis": "Found keywords: USABILITY: ['clean'], OTHER: ['excellent'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 47,
+    "text_snippet": "good for unreliable connections. ui...",
+    "analysis": "Found keywords: SECURITY: ['secur'], PERFORMANCE: ['hang'], USABILITY: ['ui', 'screen', 'touch'], FEATURE: ['need', 'feature', 'option', 'support', 'change'], OTHER: ['good', 'star'] | Detected SECURITY keywords.",
+    "category": "SECURITY"
+  },
+  {
+    "id": 48,
+    "text_snippet": "not working when i download...",
+    "analysis": "Found keywords: BUG: ['fix', 'error', 'not work'], PERFORMANCE: ['load'], OTHER: ['star'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 49,
+    "text_snippet": "live view freezes after taking...",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['freeze'], ENERGY: ['hot'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 50,
+    "text_snippet": "game this game is kool!!!!...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 51,
+    "text_snippet": "good i lives the challenging...",
+    "analysis": "Found keywords: OTHER: ['good'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 52,
+    "text_snippet": "hmm actually i do ot...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 53,
+    "text_snippet": "major errors i like this...",
+    "analysis": "Found keywords: BUG: ['fix', 'error', 'stop'], OTHER: ['star'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 54,
+    "text_snippet": "love it! makes it easy...",
+    "analysis": "Found keywords: OTHER: ['love'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 55,
+    "text_snippet": "battery drain after new update...",
+    "analysis": "Found keywords: ENERGY: ['battery', 'drain'] | Detected ENERGY keywords.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 56,
+    "text_snippet": "awesome app ! this is...",
+    "analysis": "Found keywords: PERFORMANCE: ['memory'], USABILITY: ['clean'], OTHER: ['awesome', 'excellent'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 57,
+    "text_snippet": "laggy it keeps lagging on...",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['lag', 'freeze'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 58,
+    "text_snippet": "amazing very good app and...",
+    "analysis": "Found keywords: OTHER: ['good', 'best'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 59,
+    "text_snippet": "no new features in a...",
+    "analysis": "Found keywords: FEATURE: ['feature'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 60,
+    "text_snippet": "great game great game love...",
+    "analysis": "Found keywords: PERFORMANCE: ['load'], OTHER: ['love'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 61,
+    "text_snippet": "bad for battery i had...",
+    "analysis": "Found keywords: ENERGY: ['battery'], OTHER: ['bad', 'install'] | Detected ENERGY keywords.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 62,
+    "text_snippet": "good app but lacks important...",
+    "analysis": "Found keywords: SECURITY: ['data', 'info', 'track'], PERFORMANCE: ['slow'], USABILITY: ['ui', 'screen'], FEATURE: ['feature', 'support'], OTHER: ['good', 'love'] | Detected SECURITY keywords.",
+    "category": "SECURITY"
+  },
+  {
+    "id": 63,
+    "text_snippet": "freezes on loss screen would...",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['freeze'], USABILITY: ['screen'], OTHER: ['love', 'trash'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 64,
+    "text_snippet": "drm ruins the experience the...",
+    "analysis": "Found keywords: BUG: ['fix', 'error', 'stop'], PERFORMANCE: ['load'], USABILITY: ['ui'], FEATURE: ['wish'], OTHER: ['bad', 'install'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 65,
+    "text_snippet": "nice apps lack of stability...",
+    "analysis": "Found keywords: BUG: ['crash'], PERFORMANCE: ['load'], FEATURE: ['feature'], OTHER: ['nice'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 66,
+    "text_snippet": "? game freezes regularly....",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['freeze'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 67,
+    "text_snippet": "very good app for reflecting...",
+    "analysis": "Found keywords: OTHER: ['good'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 68,
+    "text_snippet": "? cool for every day...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 69,
+    "text_snippet": "this is excellent app...",
+    "analysis": "Found keywords: OTHER: ['excellent'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 70,
+    "text_snippet": "heads up feature something's wrong...",
+    "analysis": "Found keywords: FEATURE: ['feature'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 71,
+    "text_snippet": "terrible horrible graphics. tutorial takes...",
+    "analysis": "Found keywords: BUG: ['bug', 'glitch', 'close', 'force close'], PERFORMANCE: ['load'], OTHER: ['terrible'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 72,
+    "text_snippet": "cool it's good but does...",
+    "analysis": "Found keywords: USABILITY: ['screen'], OTHER: ['good'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 73,
+    "text_snippet": "i want my money back...",
+    "analysis": "Found keywords: BUG: ['fix', 'error'], PERFORMANCE: ['load'], FEATURE: ['want'], OTHER: ['money'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 74,
+    "text_snippet": "excellent indeed i just have...",
+    "analysis": "Found keywords: PERFORMANCE: ['fast'], ENERGY: ['battery'], OTHER: ['excellent'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 75,
+    "text_snippet": "bad to many tutorials it...",
+    "analysis": "Found keywords: BUG: ['fix', 'freeze'], PERFORMANCE: ['freeze'], OTHER: ['bad', 'terrible'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 76,
+    "text_snippet": "ads to close to buttons...",
+    "analysis": "Found keywords: BUG: ['close'], USABILITY: ['button'], OTHER: ['install', 'uninstall'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 77,
+    "text_snippet": "xperia c5503 my anti-virus scanned...",
+    "analysis": "Found keywords: SECURITY: ['virus'], FEATURE: ['add'] | Detected SECURITY keywords.",
+    "category": "SECURITY"
+  },
+  {
+    "id": 78,
+    "text_snippet": "easy to use app this...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 79,
+    "text_snippet": "great app its a fabulous...",
+    "analysis": "Found keywords: PERFORMANCE: ['fast'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 80,
+    "text_snippet": "? it's better then most...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 81,
+    "text_snippet": "awesome app .. love every...",
+    "analysis": "Found keywords: FEATURE: ['feature'], OTHER: ['love', 'awesome', 'star'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 82,
+    "text_snippet": "awesome it is really good...",
+    "analysis": "Found keywords: PERFORMANCE: ['memory'], OTHER: ['good', 'awesome'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 83,
+    "text_snippet": "thanks thanks for all...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 84,
+    "text_snippet": "nice app. it is very...",
+    "analysis": "Found keywords: OTHER: ['nice'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 85,
+    "text_snippet": "amazing well designed but confusing....",
+    "analysis": "Found keywords: USABILITY: ['design'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 86,
+    "text_snippet": "i love it but... its...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug'], USABILITY: ['ui'], FEATURE: ['need'], OTHER: ['good', 'love', 'awesome'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 87,
+    "text_snippet": "this game is awesome but...",
+    "analysis": "Found keywords: OTHER: ['awesome'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 88,
+    "text_snippet": "good this game is awesome...",
+    "analysis": "Found keywords: OTHER: ['good', 'awesome'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 89,
+    "text_snippet": "bad!!! it is not use...",
+    "analysis": "Found keywords: PERFORMANCE: ['lag', 'ram'], OTHER: ['bad'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 90,
+    "text_snippet": "dinesh maity i'm too happy...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 91,
+    "text_snippet": "good app. what a nice...",
+    "analysis": "Found keywords: OTHER: ['good', 'nice'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 92,
+    "text_snippet": "the app dont work i...",
+    "analysis": "Found keywords: BUG: ['fix', 'error'], SECURITY: ['account'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 93,
+    "text_snippet": "fix the damm bug!!! cant...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug'], OTHER: ['star'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 94,
+    "text_snippet": "fun w/ few freezes &...",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['freeze'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 95,
+    "text_snippet": "frustrating freezes at level 4....",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['freeze'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 96,
+    "text_snippet": "live wallpaper this is a...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 97,
+    "text_snippet": "nostalgia loved this game in...",
+    "analysis": "Found keywords: OTHER: ['love'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 98,
+    "text_snippet": "? great for people on...",
+    "analysis": "Found keywords: OTHER: ['love'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 99,
+    "text_snippet": "i like t this game...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 100,
+    "text_snippet": "adware this app is adware...",
+    "analysis": "Found keywords: SECURITY: ['virus'] | Detected SECURITY keywords.",
+    "category": "SECURITY"
+  },
+  {
+    "id": 101,
+    "text_snippet": "? fun for kid .thanks...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 102,
+    "text_snippet": "satisfied it played for me...",
+    "analysis": "Found keywords: FEATURE: ['want'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 103,
+    "text_snippet": "fast and easy to use...",
+    "analysis": "Found keywords: PERFORMANCE: ['fast'], FEATURE: ['feature', 'support'], OTHER: ['excellent'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 104,
+    "text_snippet": "simple its does the job...",
+    "analysis": "Found keywords: USABILITY: ['simple'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 105,
+    "text_snippet": "easy to use and accurate...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 106,
+    "text_snippet": "this game is fun but...",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['freeze'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 107,
+    "text_snippet": "laggy very slow even on...",
+    "analysis": "Found keywords: PERFORMANCE: ['slow', 'lag'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 108,
+    "text_snippet": "used to like it was...",
+    "analysis": "Found keywords: BUG: ['freeze'], PERFORMANCE: ['freeze'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 109,
+    "text_snippet": "fast but no session restore...",
+    "analysis": "Found keywords: PERFORMANCE: ['fast'], FEATURE: ['need', 'feature'], OTHER: ['love'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 110,
+    "text_snippet": "thanks :-) xperia sp it's...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 111,
+    "text_snippet": "separate app for personal videos...",
+    "analysis": "Found keywords: SECURITY: ['personal'] | Detected SECURITY keywords.",
+    "category": "SECURITY"
+  },
+  {
+    "id": 112,
+    "text_snippet": "excellent app nice to use...",
+    "analysis": "Found keywords: OTHER: ['nice', 'excellent'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 113,
+    "text_snippet": "great app with some flaws...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug'], OTHER: ['nice'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 114,
+    "text_snippet": "awesome best app i ever...",
+    "analysis": "Found keywords: OTHER: ['best', 'awesome'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 115,
+    "text_snippet": "don't like it. i use...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 116,
+    "text_snippet": "keeps on freezing since the...",
+    "analysis": "Found keywords: BUG: ['fix', 'freeze'], PERFORMANCE: ['freeze'], OTHER: ['star'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 117,
+    "text_snippet": "love it really good app...",
+    "analysis": "Found keywords: OTHER: ['good', 'love', 'nice'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 118,
+    "text_snippet": "great app! love this app....",
+    "analysis": "Found keywords: OTHER: ['love'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 119,
+    "text_snippet": "great app! love this app....",
+    "analysis": "Found keywords: OTHER: ['love'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 120,
+    "text_snippet": "great! works very well on...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 121,
+    "text_snippet": "cool game its fun. i...",
+    "analysis": "Found keywords: FEATURE: ['wish'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 122,
+    "text_snippet": "great! works very well on...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 123,
+    "text_snippet": "nice but please do something...",
+    "analysis": "Found keywords: PERFORMANCE: ['speed', 'load'], OTHER: ['nice'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 124,
+    "text_snippet": "great works fine. only issue...",
+    "analysis": "Found keywords: BUG: ['close', 'force close'], OTHER: ['nice'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 125,
+    "text_snippet": "great idea... ...but poorly executed...",
+    "analysis": "Found keywords: USABILITY: ['ui'], OTHER: ['star'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 126,
+    "text_snippet": "nice app. does what it...",
+    "analysis": "Found keywords: OTHER: ['nice'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 127,
+    "text_snippet": "useful app it is good...",
+    "analysis": "Found keywords: OTHER: ['good', 'useful'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 128,
+    "text_snippet": "terrible i hate this app!...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug'], OTHER: ['hate', 'terrible'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 129,
+    "text_snippet": "good app works great. a...",
+    "analysis": "Found keywords: FEATURE: ['add', 'feature'], OTHER: ['good'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 130,
+    "text_snippet": "slow and buggy slow to...",
+    "analysis": "Found keywords: BUG: ['bug', 'glitch'], PERFORMANCE: ['slow', 'load'], USABILITY: ['difficult', 'navigat'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 131,
+    "text_snippet": "doesn't work on my phone....",
+    "analysis": "Found keywords: BUG: ['doesn't work'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 132,
+    "text_snippet": "keeps crashing why it keeps...",
+    "analysis": "Found keywords: BUG: ['crash'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 133,
+    "text_snippet": "please fix! this game keeps...",
+    "analysis": "Found keywords: BUG: ['fix', 'close'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 134,
+    "text_snippet": "slow! very slow on my...",
+    "analysis": "Found keywords: PERFORMANCE: ['slow'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 135,
+    "text_snippet": "not intuitive hard to navigate...",
+    "analysis": "Found keywords: USABILITY: ['navigat', 'hard', 'intuitive'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 136,
+    "text_snippet": "battery killer drains my battery...",
+    "analysis": "Found keywords: ENERGY: ['battery', 'drain'] | Detected ENERGY keywords.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 137,
+    "text_snippet": "security risk? asks for too...",
+    "analysis": "Found keywords: SECURITY: ['secur', 'permission'] | Detected SECURITY keywords.",
+    "category": "SECURITY"
+  },
+  {
+    "id": 138,
+    "text_snippet": "add dark mode please add...",
+    "analysis": "Found keywords: FEATURE: ['add'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 139,
+    "text_snippet": "best app ever! love it!...",
+    "analysis": "Found keywords: OTHER: ['best', 'love'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 140,
+    "text_snippet": "too expensive subscription is too...",
+    "analysis": "Found keywords: OTHER: ['price'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 141,
+    "text_snippet": "confusing ui i can't find...",
+    "analysis": "Found keywords: USABILITY: ['ui', 'confuse'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 142,
+    "text_snippet": "overheats my phone gets very...",
+    "analysis": "Found keywords: ENERGY: ['heat'] | Detected ENERGY keywords.",
+    "category": "ENERGY"
+  },
+  {
+    "id": 143,
+    "text_snippet": "hacked! someone hacked my account...",
+    "analysis": "Found keywords: SECURITY: ['hack', 'account'] | Detected SECURITY keywords.",
+    "category": "SECURITY"
+  },
+  {
+    "id": 144,
+    "text_snippet": "laggy game unplayable due to...",
+    "analysis": "Found keywords: PERFORMANCE: ['lag'] | Detected PERFORMANCE keywords.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 145,
+    "text_snippet": "missing features where is the...",
+    "analysis": "Found keywords: FEATURE: ['missing', 'feature'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 146,
+    "text_snippet": "waste of money don't buy...",
+    "analysis": "Found keywords: OTHER: ['money', 'waste'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 147,
+    "text_snippet": "font too small hard to...",
+    "analysis": "Found keywords: USABILITY: ['font', 'hard'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 148,
+    "text_snippet": "network error keeps saying network...",
+    "analysis": "Found keywords: BUG: ['error'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 149,
+    "text_snippet": "login failed i cannot login...",
+    "analysis": "Found keywords: BUG: ['fail'], SECURITY: ['login'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 150,
+    "text_snippet": "good graphics but boring game...",
+    "analysis": "Found keywords: OTHER: ['good'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 151,
+    "text_snippet": "thish app is very useful....",
+    "analysis": "Found keywords: OTHER: ['useful'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 152,
+    "text_snippet": "nice but buggy some times...",
+    "analysis": "Found keywords: BUG: ['fix', 'bug'], OTHER: ['nice'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 153,
+    "text_snippet": "not good every time i...",
+    "analysis": "Found keywords: BUG: ['fix', 'error'], SECURITY: ['secur', 'imput'], OTHER: ['good'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 154,
+    "text_snippet": "not showing today current temperature...",
+    "analysis": "Found keywords: BUG: ['fix', 'error', 'not work'], FEATURE: ['can i'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 155,
+    "text_snippet": "awesome game truly a fun...",
+    "analysis": "Found keywords: BUG: ['fix', 'crash', 'bug'], OTHER: ['awesome', 'good'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 156,
+    "text_snippet": "lots of really useful info...",
+    "analysis": "Found keywords: USABILITY: ['difficult'], OTHER: ['useful'] | Detected USABILITY keywords.",
+    "category": "USABILITY"
+  },
+  {
+    "id": 157,
+    "text_snippet": "error fix the errors gets...",
+    "analysis": "Found keywords: BUG: ['fix', 'error', 'stuck'] | Detected BUG keywords. Priority: High.",
+    "category": "BUG"
+  },
+  {
+    "id": 158,
+    "text_snippet": "? does what it says!...",
+    "analysis": "Found keywords: Nessuna keyword rilevante | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 159,
+    "text_snippet": "excellent best app best game...",
+    "analysis": "Found keywords: OTHER: ['best', 'excellent'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": 160,
+    "text_snippet": "very nice for all please...",
+    "analysis": "Found keywords: FEATURE: ['improve'], OTHER: ['nice'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 161,
+    "text_snippet": "do not update... if you're...",
+    "analysis": "Found keywords: FEATURE: ['feature'], OTHER: ['useful'] | Detected FEATURE keywords.",
+    "category": "FEATURE"
+  },
+  {
+    "id": 162,
+    "text_snippet": "wow this app is too...",
+    "analysis": "Found keywords: OTHER: ['good', 'thanks'] | No technical issues found. Categorized as OTHER.",
+    "category": "OTHER"
   }
 ]
