@@ -1,0 +1,974 @@
+[
+  {
+    "id": "1",
+    "text_snippet": "my favourite game love it",
+    "analysis": "La recensione esprime un giudizio positivo generico senza segnalare problemi tecnici, richieste di funzionalità o altri aspetti specifici. Non ci sono riferimenti a bug, prestazioni, usabilità ecc.",
+    "category": "OTHER"
+  },
+  {
+    "id": "2",
+    "text_snippet": "alright but not intuitive",
+    "analysis": "L'utente lamenta che i pulsanti non sono intuitivi e l'app è difficile da usare. Questo riguarda chiaramente la facilità d'uso e il design dell'interfaccia, quindi rientra in usabilità.",
+    "category": "USABILITY"
+  },
+  {
+    "id": "3",
+    "text_snippet": "please fix would give",
+    "analysis": "Viene segnalato un errore specifico durante l'aggiornamento su un dispositivo. Si tratta di un malfunzionamento concreto dell'app, quindi è un bug.",
+    "category": "BUG"
+  },
+  {
+    "id": "4",
+    "text_snippet": "freeze freezes right after",
+    "analysis": "L'utente descrive crash (freezing) e comportamenti anomali (va offline da sola, non funziona in background). Sono errori concreti del funzionamento, quindi categoria BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "5",
+    "text_snippet": "fast and speed application",
+    "analysis": "Recensione generica e positiva che elogia la velocità ma senza dettagli tecnici specifici o problemi. Non rientra in PERFORMANCE perché non c'è una valutazione critica o analitica, solo un'affermazione superficiale.",
+    "category": "OTHER"
+  },
+  {
+    "id": "6",
+    "text_snippet": "fun widget good selection",
+    "analysis": "Commento positivo su widget e personalizzazione, senza problemi o richieste tecniche. È un giudizio generico sull'app.",
+    "category": "OTHER"
+  },
+  {
+    "id": "7",
+    "text_snippet": "? this is cool.",
+    "analysis": "La domanda riguarda come scaricare una versione specifica di Minecraft, non un problema dell'app stessa. Non è una segnalazione tecnica né una richiesta di funzionalità per questa app.",
+    "category": "OTHER"
+  },
+  {
+    "id": "8",
+    "text_snippet": "simple to use good",
+    "analysis": "Giudizio positivo generico sulla semplicità d'uso, ma non viene segnalato alcun problema specifico di usabilità. È un commento superficiale.",
+    "category": "OTHER"
+  },
+  {
+    "id": "9",
+    "text_snippet": "i love it but bugs",
+    "analysis": "L'utente esplicitamente menziona 'bugs not fixed', quindi si tratta di una segnalazione di errori concreti.",
+    "category": "BUG"
+  },
+  {
+    "id": "10",
+    "text_snippet": "disappointed freezes on",
+    "analysis": "Viene descritto un freeze all'avvio e problemi di visualizzazione dei caratteri. Sono malfunzionamenti specifici, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "11",
+    "text_snippet": "good application best news",
+    "analysis": "L'utente suggerisce di aggiungere le notifiche, che è una funzionalità mancante. È una richiesta esplicita di nuova feature.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "12",
+    "text_snippet": "an excellent offline rss",
+    "analysis": "L'utente menziona la mancanza della possibilità di raggruppare i feed in cartelle, una funzionalità assente rispetto ad altre app. È una richiesta implicita di nuova feature.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "13",
+    "text_snippet": "unable to sign in",
+    "analysis": "Il login con Facebook causa un freeze e un crash. È un malfunzionamento concreto di una funzionalità esistente, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "14",
+    "text_snippet": "needs updating again !",
+    "analysis": "L'utente segnala bug ricorrenti e problemi di caricamento. Si tratta di errori concreti nel funzionamento, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "15",
+    "text_snippet": "dont waste your time",
+    "analysis": "Descrive freezing, caricamento lento e cancellazione di altre app. Sono comportamenti anomali gravi dell'app, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "16",
+    "text_snippet": ":/ i am still",
+    "analysis": "L'utente trova l'app difficile da capire, chiedendo maggiore chiarezza. È un problema di usabilità.",
+    "category": "USABILITY"
+  },
+  {
+    "id": "17",
+    "text_snippet": "ok i guess just",
+    "analysis": "Viene menzionato un 'start up bug', cioè un errore specifico all'avvio. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "18",
+    "text_snippet": "pretty good the app",
+    "analysis": "Critiche dettagliate su una nuova funzione SMS: limitazioni funzionali, problemi di invio, interfaccia scadente. Si tratta di una funzionalità esistente ma mal implementata; tuttavia, poiché il focus è sulle carenze strutturali della funzione (non solo UI), rientra in FEATURE (richiesta implicita di miglioramento sostanziale).",
+    "category": "FEATURE"
+  },
+  {
+    "id": "19",
+    "text_snippet": "not good not bad",
+    "analysis": "Segnala un bug specifico: le chiamate dalla seconda SIM non vengono registrate. È un malfunzionamento concreto, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "20",
+    "text_snippet": "cant play it in",
+    "analysis": "L'app consuma troppa memoria e va in 'forced close'. Il problema principale è il crash legato all'uso della memoria, quindi BUG (comportamento errato).",
+    "category": "BUG"
+  },
+  {
+    "id": "21",
+    "text_snippet": "absolutely wonderful! has",
+    "analysis": "Recensione molto positiva con un'unica nota: mancanza di temi. È una richiesta di personalizzazione estetica, quindi FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "22",
+    "text_snippet": "htc one s great",
+    "analysis": "Elogio generico sui widget, senza problemi o richieste. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "23",
+    "text_snippet": "any time avialable for",
+    "analysis": "Giudizio positivo generico su un'app biblica. Nessun problema tecnico o richiesta specifica.",
+    "category": "OTHER"
+  },
+  {
+    "id": "24",
+    "text_snippet": "straightforward useful very useful",
+    "analysis": "Menziona la mancanza di sotto-attività e difficoltà nell'accesso a note/posizioni. Sono funzionalità mancanti o poco accessibili, quindi FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "25",
+    "text_snippet": "my go to weather",
+    "analysis": "Recensione positiva con un piccolo difetto: impossibilità di cercare temperature all'estero. È una limitazione funzionale, quindi FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "26",
+    "text_snippet": "the app is good",
+    "analysis": "Descrive crash frequenti ('force close') su più dispositivi. È un BUG grave e ripetuto.",
+    "category": "BUG"
+  },
+  {
+    "id": "27",
+    "text_snippet": "4 stars .. interesting",
+    "analysis": "Mancanza di alcune funzioni di editing foto. È una richiesta implicita di nuove funzionalità, quindi FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "28",
+    "text_snippet": "? have no idea",
+    "analysis": "Confusione su come nutrire il drago e noia. Indica difficoltà di comprensione del gameplay, quindi USABILITY.",
+    "category": "USABILITY"
+  },
+  {
+    "id": "29",
+    "text_snippet": "terrible horrible graphics.",
+    "analysis": "Elenco di problemi: grafica scadente, caricamenti lenti, disconnessioni, crash, server morto. Molti sono BUG (crash, disconnessioni), altri PERFORMANCE (lentezza). Per regola, BUG ha priorità su PERFORMANCE.",
+    "category": "BUG"
+  },
+  {
+    "id": "30",
+    "text_snippet": "great but.... great",
+    "analysis": "L'app riduce drasticamente la durata della batteria. Riferimento diretto al consumo energetico, quindi ENERGY.",
+    "category": "ENERGY"
+  },
+  {
+    "id": "31",
+    "text_snippet": "last update good",
+    "analysis": "Errore dopo l'ultimo aggiornamento. È un malfunzionamento specifico, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "32",
+    "text_snippet": "amazing. this app is",
+    "analysis": "Recensione entusiasta e generica senza contenuti tecnici. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "33",
+    "text_snippet": "issue with sound and",
+    "analysis": "Video che si blocca periodicamente e desincronizzazione audio/video. Sono glitch specifici durante la riproduzione, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "34",
+    "text_snippet": "ya this is great.",
+    "analysis": "Giudizio positivo generico. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "35",
+    "text_snippet": "excellent does what it",
+    "analysis": "Recensione positiva su visibilità al sole. Nessun problema tecnico o richiesta. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "36",
+    "text_snippet": "it freezes evertime i",
+    "analysis": "Freezing all'avvio. Comportamento anomalo specifico, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "37",
+    "text_snippet": "i love it but...",
+    "analysis": "Transizione tra schermate non fluida. Si tratta di un problema di fluidità, quindi PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": "38",
+    "text_snippet": "beautiful widget. only problem",
+    "analysis": "L'app usa il GPS anche se disattivato, causando consumo batteria. È un problema di efficienza energetica legato a un comportamento improprio, ma il focus è sul consumo, quindi ENERGY.",
+    "category": "ENERGY"
+  },
+  {
+    "id": "39",
+    "text_snippet": "whoah :0 i love",
+    "analysis": "Problema di freezing durante la riproduzione di canzoni acquistate, che non vengono conteggiate. È un malfunzionamento specifico (non salvataggio dello stato), quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "40",
+    "text_snippet": "no copy text feature",
+    "analysis": "Mancanza della funzione di copia testo da PDF. Richiesta esplicita di nuova funzionalità, quindi FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "41",
+    "text_snippet": "save to sd card",
+    "analysis": "L'opzione 'salva su SD' non funziona e salva comunque in memoria interna. È un malfunzionamento di una funzione esistente, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "42",
+    "text_snippet": "great verry productive and",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "43",
+    "text_snippet": "yep cool game this",
+    "analysis": "Giudizio positivo generico su un gioco. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "44",
+    "text_snippet": "new update not working",
+    "analysis": "Dopo l'aggiornamento, il login Facebook causa freeze e riavvio del telefono. È un BUG introdotto dall'update.",
+    "category": "BUG"
+  },
+  {
+    "id": "45",
+    "text_snippet": "front camera it is",
+    "analysis": "La fotocamera frontale mostra l'immagine capovolta. È un glitch grafico/comportamentale specifico, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "46",
+    "text_snippet": "excellent app. clean and",
+    "analysis": "Recensione positiva generica sull'interfaccia. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "47",
+    "text_snippet": "good for unreliable connections.",
+    "analysis": "Critica l'UI (formattazione casuale, immagine corrotta, notifiche difettose). Si tratta di problemi di interfaccia utente, quindi USABILITY.",
+    "category": "USABILITY"
+  },
+  {
+    "id": "48",
+    "text_snippet": "not working when i",
+    "analysis": "Errore all'installazione/download. È un malfunzionamento concreto, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "49",
+    "text_snippet": "live view freezes after",
+    "analysis": "La vista live si blocca dopo lo scatto. È un comportamento anomalo specifico, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "50",
+    "text_snippet": "game this game is",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "51",
+    "text_snippet": "good i lives the",
+    "analysis": "Giudizio positivo su mini-giochi e personaggi. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "52",
+    "text_snippet": "hmm actually i do",
+    "analysis": "Commento neutro su tatuaggi, senza riferimenti tecnici. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "53",
+    "text_snippet": "major errors i like",
+    "analysis": "Arresti anomali durante le missioni. Si tratta di crash specifici, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "54",
+    "text_snippet": "love it! makes it",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "55",
+    "text_snippet": "battery drain after new",
+    "analysis": "L'aggiornamento causa un rapido consumo della batteria. Riferimento diretto a ENERGY.",
+    "category": "ENERGY"
+  },
+  {
+    "id": "56",
+    "text_snippet": "awesome app ! this",
+    "analysis": "Recensione positiva generica su killer di app e pulizia memoria. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "57",
+    "text_snippet": "laggy it keeps lagging",
+    "analysis": "L'app è lenta e causa morti nel gioco a causa di lag. Problema di fluidità e reattività, quindi PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": "58",
+    "text_snippet": "amazing very good app",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "59",
+    "text_snippet": "no new features in",
+    "analysis": "Critica la mancanza di sviluppo e nuove funzionalità. È una lamentela sulla stagnazione delle FEATURES.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "60",
+    "text_snippet": "great game great game",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "61",
+    "text_snippet": "bad for battery i",
+    "analysis": "L'app consuma troppa batteria. Riferimento esplicito a ENERGY.",
+    "category": "ENERGY"
+  },
+  {
+    "id": "62",
+    "text_snippet": "good app but lacks",
+    "analysis": "Mancanza del supporto BLE per cardiofrequenzimetri, una funzionalità importante. Richiesta implicita di FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "63",
+    "text_snippet": "freezes on loss screen",
+    "analysis": "Freezing su una schermata specifica. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "64",
+    "text_snippet": "drm ruins the experience",
+    "analysis": "Problema con la licenza DRM che causa crash ripetuti. È un malfunzionamento legato alla gestione delle licenze, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "65",
+    "text_snippet": "nice apps lack of",
+    "analysis": "Mancanza di liste di download e funzionalità base nel player, oltre a crash in background. I crash sono BUG, ma la mancanza di funzionalità è FEATURE. Tuttavia, i crash hanno priorità, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "66",
+    "text_snippet": "? game freezes regularly.",
+    "analysis": "Freezing regolari. Comportamento anomalo, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "67",
+    "text_snippet": "very good app for",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "68",
+    "text_snippet": "? cool for every",
+    "analysis": "Giudizio positivo generico. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "69",
+    "text_snippet": "this is excellent app",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "70",
+    "text_snippet": "heads up feature something's",
+    "analysis": "Le notifiche non si chiudono correttamente. È un malfunzionamento di una funzione esistente, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "71",
+    "text_snippet": "terrible horrible graphics.",
+    "analysis": "Simile alla recensione 29: crash, caricamenti lenti, server morto. Priorità a BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "72",
+    "text_snippet": "cool it's good but",
+    "analysis": "Critica l'uso inefficiente dello spazio schermo e la necessità di swipe. È un problema di layout/UI, quindi USABILITY.",
+    "category": "USABILITY"
+  },
+  {
+    "id": "73",
+    "text_snippet": "i want my money",
+    "analysis": "Dopo l'acquisto, l'app va in crash e non si carica. È un BUG che impedisce l'uso della funzionalità pagata.",
+    "category": "BUG"
+  },
+  {
+    "id": "74",
+    "text_snippet": "excellent indeed i just",
+    "analysis": "La luminosità massima consuma batteria. Problema legato al consumo energetico, quindi ENERGY.",
+    "category": "ENERGY"
+  },
+  {
+    "id": "75",
+    "text_snippet": "bad to many tutorials",
+    "analysis": "Troppi tutorial e freezing. Il freezing è un BUG, che ha priorità sulla lunghezza dei tutorial (USABILITY).",
+    "category": "BUG"
+  },
+  {
+    "id": "76",
+    "text_snippet": "ads to close to",
+    "analysis": "Critica la posizione degli annunci vicino ai pulsanti, che causa click accidentali. È un problema di layout/UI, quindi USABILITY.",
+    "category": "USABILITY"
+  },
+  {
+    "id": "77",
+    "text_snippet": "xperia c5503 my anti-virus",
+    "analysis": "L'antivirus segnala un componente sospetto (adpush). È una preoccupazione sulla sicurezza e privacy, quindi SECURITY.",
+    "category": "SECURITY"
+  },
+  {
+    "id": "78",
+    "text_snippet": "easy to use app",
+    "analysis": "Recensione positiva generica sull'usabilità, ma senza problemi specifici. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "79",
+    "text_snippet": "great app its a",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "80",
+    "text_snippet": "? it's better then",
+    "analysis": "Confronto positivo con altre slot. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "81",
+    "text_snippet": "awesome app .. love",
+    "analysis": "Recensione positiva con focus su una funzione esistente (ricette). Nessuna richiesta o problema. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "82",
+    "text_snippet": "awesome it is really",
+    "analysis": "L'app è grande e occupa troppo spazio. È un problema di dimensioni, ma non rientra nelle categorie tecniche (non è PERFORMANCE né STORAGE esplicito). Viene considerato un difetto generico, quindi OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "83",
+    "text_snippet": "thanks thanks for all",
+    "analysis": "Messaggio di ringraziamento generico. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "84",
+    "text_snippet": "nice app. it is",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "85",
+    "text_snippet": "amazing well designed but",
+    "analysis": "Mostra spazio libero diverso da Android. Potrebbe essere un BUG di calcolo, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "86",
+    "text_snippet": "i love it but...",
+    "analysis": "Segnala bug specifici (pressione di tre pulsanti, sincronizzazione con la musica). Sono malfunzionamenti, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "87",
+    "text_snippet": "this game is awesome",
+    "analysis": "Motivo di disinstallazione: mancanza di spazio. Non è un problema dell'app, ma del dispositivo. Recensione positiva, quindi OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "88",
+    "text_snippet": "good this game is",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "89",
+    "text_snippet": "bad!!! it is not",
+    "analysis": "L'app è lenta (laggy) e consuma RAM. Il lag è un problema di PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": "90",
+    "text_snippet": "dinesh maity i'm too",
+    "analysis": "Recensione positiva generica con ringraziamento. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "91",
+    "text_snippet": "good app. what a",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "92",
+    "text_snippet": "the app dont work",
+    "analysis": "Impossibile fare login dopo la creazione account. È un malfunzionamento di autenticazione, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "93",
+    "text_snippet": "fix the damm bug!!!",
+    "analysis": "Impossibile avviare l'app dopo l'update. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "94",
+    "text_snippet": "fun w/ few freezes",
+    "analysis": "Freezing e disconnessioni durante il gioco. Sono BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "95",
+    "text_snippet": "frustrating freezes at level",
+    "analysis": "Freezing a un livello specifico. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "96",
+    "text_snippet": "live wallpaper this is",
+    "analysis": "Recensione positiva generica (con errore di ortografia). Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "97",
+    "text_snippet": "nostalgia loved this game",
+    "analysis": "Desiderio di porting di altri giochi. Non è una richiesta per questa app, quindi OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "98",
+    "text_snippet": "? great for people",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "99",
+    "text_snippet": "i like t this",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "100",
+    "text_snippet": "adware this app is",
+    "analysis": "Accusa l'app di essere adware/virus. È una preoccupazione di sicurezza, quindi SECURITY.",
+    "category": "SECURITY"
+  },
+  {
+    "id": "101",
+    "text_snippet": "? fun for kid",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "102",
+    "text_snippet": "satisfied it played for",
+    "analysis": "Recensione positiva su funzionalità esistente. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "103",
+    "text_snippet": "fast and easy to",
+    "analysis": "Mancanza del supporto GIF, una funzionalità presente in Chrome. È una richiesta implicita di FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "104",
+    "text_snippet": "simple its does the",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "105",
+    "text_snippet": "easy to use and",
+    "analysis": "Recensione positiva sull'accuratezza. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "106",
+    "text_snippet": "this game is fun",
+    "analysis": "Freezing frequente che causa frustrazione. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "107",
+    "text_snippet": "laggy very slow even",
+    "analysis": "Lentezza anche su WiFi. Problema di PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": "108",
+    "text_snippet": "used to like it",
+    "analysis": "Freezing quasi ogni volta dopo l'update. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "109",
+    "text_snippet": "fast but no session",
+    "analysis": "Mancanza del ripristino sessione, una funzionalità importante per browser. È una richiesta di FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "110",
+    "text_snippet": "thanks :-) xperia sp",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "111",
+    "text_snippet": "separate app for personal",
+    "analysis": "Critica la rimozione di una funzione e la sua migrazione a un'altra app. È una lamentela sulla mancanza di una funzionalità integrata, quindi FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "112",
+    "text_snippet": "excellent app nice to",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "113",
+    "text_snippet": "? simple quick and",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "114",
+    "text_snippet": "unplayable freezes every time",
+    "analysis": "Freezing sistematico all'avvio. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "115",
+    "text_snippet": "gud it's funny game",
+    "analysis": "Problemi di connessione Facebook (freeze e crash) e meccaniche di gioco confuse. Il freeze è un BUG, che ha priorità.",
+    "category": "BUG"
+  },
+  {
+    "id": "116",
+    "text_snippet": "didn't get the full",
+    "analysis": "Aspetto visivo dei pulsanti di navigazione non aggiornato. È un problema di UI/compatibilità visiva, quindi USABILITY.",
+    "category": "USABILITY"
+  },
+  {
+    "id": "117",
+    "text_snippet": "? this app is",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "118",
+    "text_snippet": "battery level bug battery",
+    "analysis": "Il livello batteria non è sincronizzato e l'icona non è rimovibile. Sono malfunzionamenti specifici, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "119",
+    "text_snippet": "optimalisation for 4.4 is",
+    "analysis": "Problemi di riproduzione (salto traccia, artwork bloccato). Sono bug specifici del player, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "120",
+    "text_snippet": "integration of emails is",
+    "analysis": "Mancanza di funzionalità di organizzazione e automazione rispetto a Exchange. Richiesta di FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "121",
+    "text_snippet": "very slow intresting to",
+    "analysis": "Lentezza nel gameplay. Problema di PERFORMANCE.",
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": "122",
+    "text_snippet": "? quite reliable and",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "123",
+    "text_snippet": "not connecting to facebook",
+    "analysis": "Connessione Facebook causa crash. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "124",
+    "text_snippet": "best of i have",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "125",
+    "text_snippet": "ok but buggy freezes",
+    "analysis": "Freezing e lag. Il freezing è un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "126",
+    "text_snippet": "brightness level bugs still",
+    "analysis": "Problemi con il livello di luminosità all'avvio. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "127",
+    "text_snippet": "good app but not",
+    "analysis": "Alto consumo di batteria e dati. Il consumo batteria è ENERGY.",
+    "category": "ENERGY"
+  },
+  {
+    "id": "128",
+    "text_snippet": "excellent it's a good",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "129",
+    "text_snippet": "kobe is the best",
+    "analysis": "Commento irrilevante (su Kobe Bryant). Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "130",
+    "text_snippet": "pro features bug fixed",
+    "analysis": "Funzionalità Pro non funzionanti su KitKat. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "131",
+    "text_snippet": "must have very useful.",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "132",
+    "text_snippet": "sms service not working",
+    "analysis": "Servizio SMS non funzionante. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "133",
+    "text_snippet": "still not marched triumphant",
+    "analysis": "Mancanza di chiamate vocali su Android 2.3. È una limitazione funzionale, quindi FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "134",
+    "text_snippet": "generally a good game.",
+    "analysis": "Difficoltà strategica, ma non è un problema tecnico. Giudizio generico, quindi OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "135",
+    "text_snippet": "? this is something",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "136",
+    "text_snippet": "i think it's a",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "137",
+    "text_snippet": "? love this site",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "138",
+    "text_snippet": "can play again for",
+    "analysis": "Difficoltà di accesso a giochi, ma attribuita al telefono, non all'app. Recensione positiva, quindi OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "139",
+    "text_snippet": "dissapointed you don't do",
+    "analysis": "Mancanza di supporto per il Regno Unito. È una limitazione geografica, quindi FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "140",
+    "text_snippet": "? this app is",
+    "analysis": "Freezing e impossibilità di vedere i pesci. Il freezing è un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "141",
+    "text_snippet": "frustrating lack of features",
+    "analysis": "Impossibilità di salvare su SD esterna e rimozione multipla. Sono funzionalità mancanti, quindi FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "142",
+    "text_snippet": "micromax a177 that is",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "143",
+    "text_snippet": "fun and challenging! one",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "144",
+    "text_snippet": "android un-friendly the app",
+    "analysis": "Mancanza di supporto Chromecast e sviluppo inferiore rispetto iOS. È una richiesta implicita di FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "145",
+    "text_snippet": "i dont have a",
+    "analysis": "Impossibilità di usare l'app senza SD. È una limitazione funzionale, quindi FEATURE.",
+    "category": "FEATURE"
+  },
+  {
+    "id": "146",
+    "text_snippet": "this is excellent app",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "147",
+    "text_snippet": "facebook connection error when",
+    "analysis": "Connessione Facebook causa freeze e crash. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "148",
+    "text_snippet": "it is good but",
+    "analysis": "Recensione ambigua ma generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "149",
+    "text_snippet": "great best for baby's",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "150",
+    "text_snippet": "f**** if during next",
+    "analysis": "Minaccia di valutazione negativa per mancanza di carte, non un problema tecnico. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "151",
+    "text_snippet": "2.6 thish app is",
+    "analysis": "Recensione positiva generica (con errore di ortografia). Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "152",
+    "text_snippet": "nice but buggy some",
+    "analysis": "Problemi di clock e cheating. Sono malfunzionamenti del sistema di gioco, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "153",
+    "text_snippet": "not good every time",
+    "analysis": "Errori nel unfollow e richiesta codice di sicurezza. Sono malfunzionamenti, quindi BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "154",
+    "text_snippet": "not showing today current",
+    "analysis": "Mancata visualizzazione temperatura, ricerca luoghi non funzionante, errore aggiornamento. Sono BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "155",
+    "text_snippet": "awesome game truly a",
+    "analysis": "Richiesta di fix per bug e crash. Sono BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "156",
+    "text_snippet": "lots of really useful",
+    "analysis": "Form difficile da usare. È un problema di USABILITY.",
+    "category": "USABILITY"
+  },
+  {
+    "id": "157",
+    "text_snippet": "error fix the errors",
+    "analysis": "App si blocca. È un BUG.",
+    "category": "BUG"
+  },
+  {
+    "id": "158",
+    "text_snippet": "? does what it",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "159",
+    "text_snippet": "excellent best app best",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "160",
+    "text_snippet": "very nice for all",
+    "analysis": "Richiesta generica di miglioramento per 'diesel shed', non chiara. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "161",
+    "text_snippet": "do not update... if",
+    "analysis": "Critica l'aggiornamento di Google Maps, non un problema tecnico della propria app. Categoria OTHER.",
+    "category": "OTHER"
+  },
+  {
+    "id": "162",
+    "text_snippet": "wow this app is",
+    "analysis": "Recensione positiva generica. Categoria OTHER.",
+    "category": "OTHER"
+  }
+]
