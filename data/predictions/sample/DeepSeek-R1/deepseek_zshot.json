@@ -1,0 +1,650 @@
+[
+  {
+    "id": 1,
+    "category": "OTHER"
+  },
+  {
+    "id": 2,
+    "category": "USABILITY"
+  },
+  {
+    "id": 3,
+    "category": "BUG"
+  },
+  {
+    "id": 4,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 5,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 6,
+    "category": "OTHER"
+  },
+  {
+    "id": 7,
+    "category": "OTHER"
+  },
+  {
+    "id": 8,
+    "category": "OTHER"
+  },
+  {
+    "id": 9,
+    "category": "BUG"
+  },
+  {
+    "id": 10,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 11,
+    "category": "FEATURE"
+  },
+  {
+    "id": 12,
+    "category": "FEATURE"
+  },
+  {
+    "id": 13,
+    "category": "BUG"
+  },
+  {
+    "id": 14,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 15,
+    "category": "BUG"
+  },
+  {
+    "id": 16,
+    "category": "USABILITY"
+  },
+  {
+    "id": 17,
+    "category": "BUG"
+  },
+  {
+    "id": 18,
+    "category": "FEATURE"
+  },
+  {
+    "id": 19,
+    "category": "BUG"
+  },
+  {
+    "id": 20,
+    "category": "BUG"
+  },
+  {
+    "id": 21,
+    "category": "OTHER"
+  },
+  {
+    "id": 22,
+    "category": "OTHER"
+  },
+  {
+    "id": 23,
+    "category": "OTHER"
+  },
+  {
+    "id": 24,
+    "category": "FEATURE"
+  },
+  {
+    "id": 25,
+    "category": "ENERGY"
+  },
+  {
+    "id": 26,
+    "category": "BUG"
+  },
+  {
+    "id": 27,
+    "category": "FEATURE"
+  },
+  {
+    "id": 28,
+    "category": "OTHER"
+  },
+  {
+    "id": 29,
+    "category": "BUG"
+  },
+  {
+    "id": 30,
+    "category": "ENERGY"
+  },
+  {
+    "id": 31,
+    "category": "BUG"
+  },
+  {
+    "id": 32,
+    "category": "OTHER"
+  },
+  {
+    "id": 33,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 34,
+    "category": "OTHER"
+  },
+  {
+    "id": 35,
+    "category": "OTHER"
+  },
+  {
+    "id": 36,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 37,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 38,
+    "category": "ENERGY"
+  },
+  {
+    "id": 39,
+    "category": "BUG"
+  },
+  {
+    "id": 40,
+    "category": "FEATURE"
+  },
+  {
+    "id": 41,
+    "category": "BUG"
+  },
+  {
+    "id": 42,
+    "category": "OTHER"
+  },
+  {
+    "id": 43,
+    "category": "OTHER"
+  },
+  {
+    "id": 44,
+    "category": "BUG"
+  },
+  {
+    "id": 45,
+    "category": "BUG"
+  },
+  {
+    "id": 46,
+    "category": "OTHER"
+  },
+  {
+    "id": 47,
+    "category": "BUG"
+  },
+  {
+    "id": 48,
+    "category": "BUG"
+  },
+  {
+    "id": 49,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 50,
+    "category": "OTHER"
+  },
+  {
+    "id": 51,
+    "category": "OTHER"
+  },
+  {
+    "id": 52,
+    "category": "OTHER"
+  },
+  {
+    "id": 53,
+    "category": "BUG"
+  },
+  {
+    "id": 54,
+    "category": "OTHER"
+  },
+  {
+    "id": 55,
+    "category": "ENERGY"
+  },
+  {
+    "id": 56,
+    "category": "OTHER"
+  },
+  {
+    "id": 57,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 58,
+    "category": "OTHER"
+  },
+  {
+    "id": 59,
+    "category": "OTHER"
+  },
+  {
+    "id": 60,
+    "category": "OTHER"
+  },
+  {
+    "id": 61,
+    "category": "ENERGY"
+  },
+  {
+    "id": 62,
+    "category": "FEATURE"
+  },
+  {
+    "id": 63,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 64,
+    "category": "BUG"
+  },
+  {
+    "id": 65,
+    "category": "BUG"
+  },
+  {
+    "id": 66,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 67,
+    "category": "OTHER"
+  },
+  {
+    "id": 68,
+    "category": "OTHER"
+  },
+  {
+    "id": 69,
+    "category": "OTHER"
+  },
+  {
+    "id": 70,
+    "category": "BUG"
+  },
+  {
+    "id": 71,
+    "category": "BUG"
+  },
+  {
+    "id": 72,
+    "category": "USABILITY"
+  },
+  {
+    "id": 73,
+    "category": "BUG"
+  },
+  {
+    "id": 74,
+    "category": "ENERGY"
+  },
+  {
+    "id": 75,
+    "category": "BUG"
+  },
+  {
+    "id": 76,
+    "category": "OTHER"
+  },
+  {
+    "id": 77,
+    "category": "SECURITY"
+  },
+  {
+    "id": 78,
+    "category": "OTHER"
+  },
+  {
+    "id": 79,
+    "category": "OTHER"
+  },
+  {
+    "id": 80,
+    "category": "OTHER"
+  },
+  {
+    "id": 81,
+    "category": "OTHER"
+  },
+  {
+    "id": 82,
+    "category": "OTHER"
+  },
+  {
+    "id": 83,
+    "category": "OTHER"
+  },
+  {
+    "id": 84,
+    "category": "OTHER"
+  },
+  {
+    "id": 85,
+    "category": "USABILITY"
+  },
+  {
+    "id": 86,
+    "category": "BUG"
+  },
+  {
+    "id": 87,
+    "category": "OTHER"
+  },
+  {
+    "id": 88,
+    "category": "OTHER"
+  },
+  {
+    "id": 89,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 90,
+    "category": "OTHER"
+  },
+  {
+    "id": 91,
+    "category": "OTHER"
+  },
+  {
+    "id": 92,
+    "category": "BUG"
+  },
+  {
+    "id": 93,
+    "category": "BUG"
+  },
+  {
+    "id": 94,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 95,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 96,
+    "category": "OTHER"
+  },
+  {
+    "id": 97,
+    "category": "FEATURE"
+  },
+  {
+    "id": 98,
+    "category": "OTHER"
+  },
+  {
+    "id": 99,
+    "category": "OTHER"
+  },
+  {
+    "id": 100,
+    "category": "SECURITY"
+  },
+  {
+    "id": 101,
+    "category": "OTHER"
+  },
+  {
+    "id": 102,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 103,
+    "category": "FEATURE"
+  },
+  {
+    "id": 104,
+    "category": "OTHER"
+  },
+  {
+    "id": 105,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 106,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 107,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 108,
+    "category": "BUG"
+  },
+  {
+    "id": 109,
+    "category": "FEATURE"
+  },
+  {
+    "id": 110,
+    "category": "OTHER"
+  },
+  {
+    "id": 111,
+    "category": "FEATURE"
+  },
+  {
+    "id": 112,
+    "category": "OTHER"
+  },
+  {
+    "id": 113,
+    "category": "OTHER"
+  },
+  {
+    "id": 114,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 115,
+    "category": "BUG"
+  },
+  {
+    "id": 116,
+    "category": "BUG"
+  },
+  {
+    "id": 117,
+    "category": "OTHER"
+  },
+  {
+    "id": 118,
+    "category": "ENERGY"
+  },
+  {
+    "id": 119,
+    "category": "BUG"
+  },
+  {
+    "id": 120,
+    "category": "FEATURE"
+  },
+  {
+    "id": 121,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 122,
+    "category": "OTHER"
+  },
+  {
+    "id": 123,
+    "category": "BUG"
+  },
+  {
+    "id": 124,
+    "category": "OTHER"
+  },
+  {
+    "id": 125,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 126,
+    "category": "BUG"
+  },
+  {
+    "id": 127,
+    "category": "ENERGY"
+  },
+  {
+    "id": 128,
+    "category": "OTHER"
+  },
+  {
+    "id": 129,
+    "category": "OTHER"
+  },
+  {
+    "id": 130,
+    "category": "BUG"
+  },
+  {
+    "id": 131,
+    "category": "OTHER"
+  },
+  {
+    "id": 132,
+    "category": "BUG"
+  },
+  {
+    "id": 133,
+    "category": "FEATURE"
+  },
+  {
+    "id": 134,
+    "category": "OTHER"
+  },
+  {
+    "id": 135,
+    "category": "OTHER"
+  },
+  {
+    "id": 136,
+    "category": "OTHER"
+  },
+  {
+    "id": 137,
+    "category": "OTHER"
+  },
+  {
+    "id": 138,
+    "category": "OTHER"
+  },
+  {
+    "id": 139,
+    "category": "OTHER"
+  },
+  {
+    "id": 140,
+    "category": "PERFORMANCE"
+  },
+  {
+    "id": 141,
+    "category": "FEATURE"
+  },
+  {
+    "id": 142,
+    "category": "OTHER"
+  },
+  {
+    "id": 143,
+    "category": "OTHER"
+  },
+  {
+    "id": 144,
+    "category": "FEATURE"
+  },
+  {
+    "id": 145,
+    "category": "OTHER"
+  },
+  {
+    "id": 146,
+    "category": "OTHER"
+  },
+  {
+    "id": 147,
+    "category": "BUG"
+  },
+  {
+    "id": 148,
+    "category": "OTHER"
+  },
+  {
+    "id": 149,
+    "category": "OTHER"
+  },
+  {
+    "id": 150,
+    "category": "FEATURE"
+  },
+  {
+    "id": 151,
+    "category": "OTHER"
+  },
+  {
+    "id": 152,
+    "category": "BUG"
+  },
+  {
+    "id": 153,
+    "category": "BUG"
+  },
+  {
+    "id": 154,
+    "category": "BUG"
+  },
+  {
+    "id": 155,
+    "category": "BUG"
+  },
+  {
+    "id": 156,
+    "category": "USABILITY"
+  },
+  {
+    "id": 157,
+    "category": "BUG"
+  },
+  {
+    "id": 158,
+    "category": "OTHER"
+  },
+  {
+    "id": 159,
+    "category": "OTHER"
+  },
+  {
+    "id": 160,
+    "category": "OTHER"
+  },
+  {
+    "id": 161,
+    "category": "OTHER"
+  },
+  {
+    "id": 162,
+    "category": "OTHER"
+  }
+]
