@@ -1,0 +1,974 @@
+[
+    {
+        "id": 1,
+        "text_snippet": "my favourite game love it",
+        "analysis": "Keywords: my favourite game love it  lots of fun and lot of players . Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 2,
+        "text_snippet": "alright but not intuitive too",
+        "analysis": "Keywords: alright but not intuitive too difficult to use. the buttons need to be more intuitive.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 3,
+        "text_snippet": "please fix would give 5",
+        "analysis": "Keywords: please fix would give 5 stars but on fiances phone it won't update it says error. please fix!!!!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 4,
+        "text_snippet": "freeze freezes right after i",
+        "analysis": "Keywords: freeze freezes right after i try to make video call  goes offline itself within few minutes of being idle does not work in backgrnd. .plaz fixxxxxxxxx. .. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 5,
+        "text_snippet": "fast and speed application",
+        "analysis": "Keywords: fast and speed application. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 6,
+        "text_snippet": "fun widget good selection of",
+        "analysis": "Keywords: fun widget good selection of hilts and colors.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 7,
+        "text_snippet": "? this is cool. but",
+        "analysis": "Keywords: ? this is cool. but .. u.mmm. do you know how to download mcpe 0.9.0. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 8,
+        "text_snippet": "simple to use good and",
+        "analysis": "Keywords: simple to use good and simple to use. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 9,
+        "text_snippet": "i love it but bugs",
+        "analysis": "Keywords: i love it but bugs not fixed pls fix it.... Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 10,
+        "text_snippet": "disappointed freezes on start n",
+        "analysis": "Keywords: disappointed freezes on start n letters dnt show. #refund. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 11,
+        "text_snippet": "good application best news application",
+        "analysis": "Keywords: good application best news application  it should add a feature of notification also @-}--. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 12,
+        "text_snippet": "an excellent offline rss reader",
+        "analysis": "Keywords: an excellent offline rss reader on my nexus 7. a solid  simple  lightweight reader. the only feature i miss compared with my desktop reader is the ability to group feeds in folders. thanks are due to the author.  this is an open source program and there are similar apps based on it. if you have one of these installed  as i had  uninstall it first or you get a 'duplicate' error.  this is not a web-based reader like google reader  but you can import your feeds as an opml file.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 13,
+        "text_snippet": "unable to sign in with",
+        "analysis": "Keywords: unable to sign in with facebook i like to play this game but am not able to sign in with facebook. when i touch  the facebook icon it just shakes then freezes and then just kicks me out of the game. how can i fix this problem or can the developers please fix?? if the problem can be fixed i will give more stars. please help me!!! ?. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 14,
+        "text_snippet": "needs updating again ! i",
+        "analysis": "Keywords: needs updating again ! i thought the app was all good but it started the same thing as before all over again needs speed improvement and the bugs need to be fixed ! the app wont even pull up please fix !. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 15,
+        "text_snippet": "dont waste your time !!!",
+        "analysis": "Keywords: dont waste your time !!! .doesnt load well ! .always freezes ! .too many pop up ads ! always deletes all my other apps after it has frozen !. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 16,
+        "text_snippet": ":/ i am still confused",
+        "analysis": "Keywords: :/ i am still confused on how this works maybe make it  easier to understand. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 17,
+        "text_snippet": "ok i guess just fix",
+        "analysis": "Keywords: ok i guess just fix the start up bug it is getting annoying. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 18,
+        "text_snippet": "pretty good the app is",
+        "analysis": "Keywords: pretty good the app is pretty good  but the new sms feature is not acceptable.  i was very excited when i saw the update  but now i am disappointed. it works in its very essence  but even then it's very clumsy. things like only allowing the text being sent to one person  not allowing the ringing the editing of the recipient after initial insertion  etc. the text messages take forever to actually be sent. plus  it's an eyesore compared to the rest of the app. the cursor and send button are white on a white background and so are difficult to see...at least make it black to match. it's clear to me that they threw it in last second without much testing.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 19,
+        "text_snippet": "not good not bad using",
+        "analysis": "Keywords: not good not bad using htc desire 500 calls r recorded if calling from sim 1 only if calling from 2nd sim dan calls r not recorded.... please fix ds bug asap.... Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 20,
+        "text_snippet": "cant play it in my",
+        "analysis": "Keywords: cant play it in my phone after playing it takes too much memory in my phone after playing it for a couple of days it goes forced close when the start button appears... fix this bug. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 21,
+        "text_snippet": "absolutely wonderful! has all the",
+        "analysis": "Keywords: absolutely wonderful! has all the features of premium antivirus absolutely free....  cool ui high privacy boosts spped.  excellent app... a mostwanted app for android devices. ..  the one and only drawback is lack of themes... i got bored of the white theme... could use more creative themes..need a more good looking tray in the notification panel...    keep yp the gud work (y) ..!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: SECURITY",
+        "category": "SECURITY"
+    },
+    {
+        "id": 22,
+        "text_snippet": "htc one s great app",
+        "analysis": "Keywords: htc one s great app  with nice and various widgets. thanks!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 23,
+        "text_snippet": "any time avialable for read",
+        "analysis": "Keywords: any time avialable for read the bible;very good app. superb app. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 24,
+        "text_snippet": "straightforward useful very useful for",
+        "analysis": "Keywords: straightforward  useful very useful for what it should do  and the basic functionality is great. i do like the any.do moment feature  which asks you to plan out your day. the interface for the companion calendar  cal  is incredible  while any.do is just decent - nothing special. the big complaint i have  then  is a lack of sub-tasks  and a relatively difficult interface for viewing or editing anything more than a task title (e.g. notes or locations or reminders are all a tad difficult to access). overall  though  not bad at all. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 25,
+        "text_snippet": "my go to weather app",
+        "analysis": "Keywords: my go to weather app after trying other apps  i keep going back to this as my go to weather app. efficient use of battery  great visuals  and beautiful widgets. i tried to get the temperature over seas but it wouldn't let me  that would be my only concern  but i can find that elsewhere if pressing. great job! using paranoidandroid 2.53 on samsung vibrant.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: ENERGY",
+        "category": "ENERGY"
+    },
+    {
+        "id": 26,
+        "text_snippet": "the app is good for",
+        "analysis": "Keywords: the app is good for 30 seconds... it's not only the app that has some serious bugs  it's also the website & mobile view. i keep having to force close the app after 30 seconds. i have this app on my s4 - nexus5 - note3 all facing the same issue.  the app is  seriously suckish guys fix it  and fix your website aswel. it's like you guys are paying for the wrong staff? f**k all the design bs it looks alright. focus on all your optimisations  some fixes are just seriously basic!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 27,
+        "text_snippet": "4 stars .. interesting app.",
+        "analysis": "Keywords: 4 stars .. interesting app. but lack some photo editing features. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 28,
+        "text_snippet": "? have no idea how",
+        "analysis": "Keywords: ? have no idea how to feed dragon and boooorrrriiiiiinnhgggg. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 29,
+        "text_snippet": "terrible horrible graphics. tutorial takes",
+        "analysis": "Keywords: terrible horrible graphics. tutorial takes forever. takes forever to load  frequent disconnects. force closes many bugs and glitches. sever is almost dead. extremely unbalanced. you always get attacked by someone with way higher rank than you. updates are non existent. looks like developers gave up on this one. don't download! this game is just awful. too many ads.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 30,
+        "text_snippet": "great but.... great but decrease",
+        "analysis": "Keywords: great but.... great  but decrease alot of battery life on my ace 2. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: ENERGY",
+        "category": "ENERGY"
+    },
+    {
+        "id": 31,
+        "text_snippet": "last update good job but",
+        "analysis": "Keywords: last update good job but error after last update please fix it soon. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 32,
+        "text_snippet": "amazing. this app is perfection.",
+        "analysis": "Keywords: amazing. this app is perfection. 5.0 is insane.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 33,
+        "text_snippet": "issue with sound and video",
+        "analysis": "Keywords: issue with sound and video i'm using a spice mobile. when i use the vlc app  the sound is fine but the video freezes every 25 to 30 seconds and after few seconds video playing but sound and video mismatch.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 34,
+        "text_snippet": "ya this is great.",
+        "analysis": "Keywords: ya this is great.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 35,
+        "text_snippet": "excellent does what it says",
+        "analysis": "Keywords: excellent does what it says and is easy to see in bright sun.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 36,
+        "text_snippet": "it freezes evertime i open",
+        "analysis": "Keywords: it freezes evertime i open it pls fix it. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 37,
+        "text_snippet": "i love it but... i",
+        "analysis": "Keywords: i love it  but... i use smart launcher for months  i love how it consume less memory than other launchers and without lack of features. but one thing that bothers me sometimes is that the screen transition between home screen and the drawer is not smooth enough. i hope you guys see my review and get it done. overall  5 stars!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 38,
+        "text_snippet": "beautiful widget. only problem i",
+        "analysis": "Keywords: beautiful widget. only problem i think is inspite of turning gps off  the app is continuously using it as shown by my battery usage statistics.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: ENERGY",
+        "category": "ENERGY"
+    },
+    {
+        "id": 39,
+        "text_snippet": "whoah :0 i love the",
+        "analysis": "Keywords: whoah :0 i love the show i love the app though i suck if only it were easier to get more coins. i have had some irritating issues with the app though. when a play a song i just bought it sort of freezes and if i get out of the app and back in it doesn't count it like i had play it  so it doesn't give me coins and its happened more than once  that part gets annoying to me.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 40,
+        "text_snippet": "no copy text feature this",
+        "analysis": "Keywords: no copy text feature this app is good  but i just wish it would allow me to copy text from pdfs.  sometimes i need to paste text from a pdf document into a word document.  i find this lack of functionality quite frustrating.  if the developers add this feature i would give this app 5 out of 5 stars.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 41,
+        "text_snippet": "save to sd card i",
+        "analysis": "Keywords: save to sd card i checked the option to save to sd card however it still saves to internal memory??. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 42,
+        "text_snippet": "great verry productive and usefull",
+        "analysis": "Keywords: great verry productive and usefull app. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 43,
+        "text_snippet": "yep cool game this game",
+        "analysis": "Keywords: yep cool game this game is awsome.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 44,
+        "text_snippet": "new update not working well",
+        "analysis": "Keywords: new update not working well the app won't let me log in to my facebook. it freezes my phone n the have to restart my phone. before the update it did work. now it doesn't. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 45,
+        "text_snippet": "front camera it is upside",
+        "analysis": "Keywords: front camera it is upside down!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 46,
+        "text_snippet": "excellent app. clean and easy",
+        "analysis": "Keywords: excellent app.  clean and easy to use. ?. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 47,
+        "text_snippet": "good for unreliable connections. ui",
+        "analysis": "Keywords: good for unreliable connections. ui needs work the only android client to implement xep-0198  for reliable messaging over unreliable connections. this requires support from your xmpp server -- e.g prosody with the unofficial mod_smash module -- and your colleagues im clients -- e.g. gajim  and gibberbot itself. many of the most popular xmpp servers and clients still lack this critical feature (looking at you  ejabberd  pidgin  xabber). it would be good if other software projects started to take these stream management extensions more seriously  especially as gtalk  with its proprietary stream management  looks like it's biting the dust. we need clients gibberbot (and gajim etc) to get things moving on this front. there are issues with gibberbot. the ui needs work (e.g. the formatting of the chat window changes randomly when scrolling up and down; the background image can be corrupted when touching the screen; there is no option to select a different notification sound  and notifications don't always work with open chats)  and sometimes it takes time to negotiate a connection. xabber has a better ui (and is gpled  hint hint)  but if you must have reliable and secure xmpp messaging on the move  this is currently your only choice.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 48,
+        "text_snippet": "not working when i download",
+        "analysis": "Keywords: not working when i download it it always has an error... ggggggrgrrrrrrrrrrr!!!!!!!!! could you please fix it? if you will then i will give you 5 stars...got it!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 49,
+        "text_snippet": "live view freezes after taking",
+        "analysis": "Keywords: live view freezes after taking the shot the live view freezes. everything else keeps working and i can take more shots but the live view stays on the first shot.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 50,
+        "text_snippet": "game this game is kool!!!!",
+        "analysis": "Keywords: game this game is kool!!!!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 51,
+        "text_snippet": "good i lives the challenging",
+        "analysis": "Keywords: good i lives the challenging mini games. and the frogs were pretty cute! :). Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 52,
+        "text_snippet": "hmm actually i do ot",
+        "analysis": "Keywords: hmm actually i do ot like tattoo but i will try... Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 53,
+        "text_snippet": "major errors i like this",
+        "analysis": "Keywords: major errors i like this game but having some problem unexpected stop in wave & now in missions also. fix it i give u 5 star for this game.... now its stop in every mission. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 54,
+        "text_snippet": "love it! makes it easy",
+        "analysis": "Keywords: love it! makes it easy to check for deals daily.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 55,
+        "text_snippet": "battery drain after new update",
+        "analysis": "Keywords: battery drain after new update  it drains my battery. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: ENERGY",
+        "category": "ENERGY"
+    },
+    {
+        "id": 56,
+        "text_snippet": "awesome app ! this is",
+        "analysis": "Keywords: awesome app ! this is excellent.  it's a great app killer and  memory cleaner.  perfect.  exactly what i was looking for.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 57,
+        "text_snippet": "laggy it keeps lagging on",
+        "analysis": "Keywords: laggy it keeps lagging on me and i keep dieing cause it freezes and everything just wizzes by. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 58,
+        "text_snippet": "amazing very good app and",
+        "analysis": "Keywords: amazing very good app and interesting . the best app for sports. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 59,
+        "text_snippet": "no new features in a",
+        "analysis": "Keywords: no new features in a year... i've switched to timely due to lack of development on this.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 60,
+        "text_snippet": "great game great game love",
+        "analysis": "Keywords: great game great game love to play download and give it a try. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 61,
+        "text_snippet": "bad for battery i had",
+        "analysis": "Keywords: bad for battery i had to revise my rating. it sucks too much battery.  i have 50% left and before installing i would have 80-90% left.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: ENERGY",
+        "category": "ENERGY"
+    },
+    {
+        "id": 62,
+        "text_snippet": "good app but lacks important",
+        "analysis": "Keywords: good app  but lacks important updates i love this app. it does exactly what it's suppose to do. it tracks runs  bike rides  and other forms of moving exercises. the data is quick to get to and the running screen is easy to read and see all the important info at a glance.  unfortunately  they're slow with updating the app to use android's latest features. specifically bluetooth low energy for heart rate monitors. i understand not everyone is on android 4.3+ but for those of us who are  the lack of ble support is discouraging  given how important heart rate info can be when training. for this reason  i've moved over to mapmyfitness which supports bluetooth low energy heart rate monitors. once runkeeper brings in ble support  i'll switch back as i like the app better.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: SECURITY",
+        "category": "SECURITY"
+    },
+    {
+        "id": 63,
+        "text_snippet": "freezes on loss screen would",
+        "analysis": "Keywords: freezes on loss screen would love to unlock the alpha goggles but lucky this app is trash.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 64,
+        "text_snippet": "drm ruins the experience the",
+        "analysis": "Keywords: drm ruins the experience the licensing issue in this game completely ruined my experience with the game. those of you looking to purchase the game must be warned the google play license error message shows up after an hours play and force stops the app. if you wish to keep playing you must download and re-install the app again only to have the same process repeat itself after another hours play. an issue the developer is unwilling to fix after unresponsive bad customer service.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 65,
+        "text_snippet": "nice apps lack of stability",
+        "analysis": "Keywords: nice apps  lack of stability and features it would be better if there is downloading and downloaded list rather than checking each kind of genre. the player features is also lack most of important features. very prone to crash if it's running in the background.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 66,
+        "text_snippet": "? game freezes regularly.",
+        "analysis": "Keywords: ? game freezes regularly.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 67,
+        "text_snippet": "very good app for reflecting",
+        "analysis": "Keywords: very good app for reflecting i adore it. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 68,
+        "text_snippet": "? cool for every day",
+        "analysis": "Keywords: ? cool for every day. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 69,
+        "text_snippet": "this is excellent app",
+        "analysis": "Keywords: this is excellent app. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 70,
+        "text_snippet": "heads up feature something's wrong",
+        "analysis": "Keywords: heads up feature something's wrong with the heads up feature on htc one. the notifications keep coming back even after you dismiss it. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 71,
+        "text_snippet": "terrible horrible graphics. tutorial takes",
+        "analysis": "Keywords: terrible horrible graphics. tutorial takes forever. takes forever to load  frequent disconnects. force closes many bugs and glitches. sever is completely dead. updates are non existent. looks like developers gave up on this one. don't download! this game is just awful.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 72,
+        "text_snippet": "cool it's good but does",
+        "analysis": "Keywords: cool it's good but does not use the screen space properly. why swipe when there is space to draw all icons?. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 73,
+        "text_snippet": "i want my money back",
+        "analysis": "Keywords: i want my money back !? so i download this abd i couldn't unfollow people because i had to upgrade to pro for 99 cents i did that and it froze so i reloaded it and it wouldnt load it kept saying error invalid so yea..... fix it please and give me my money back. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 74,
+        "text_snippet": "excellent indeed i just have",
+        "analysis": "Keywords: excellent indeed i just have a small problem  the lights always boosts to max when reading hence consuming my battery faster. but other than that  an excellent app :). Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 75,
+        "text_snippet": "bad to many tutorials it",
+        "analysis": "Keywords: bad to many tutorials  it tkes to long  and it freezes up on my device please fix this until then this game is terrible to me. others may like it thought i don't.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 76,
+        "text_snippet": "ads to close to buttons",
+        "analysis": "Keywords: ads to close to buttons i understand why ads are in free software  but why do you have to put them so close to the buttons? i uninstalled this app because of this!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 77,
+        "text_snippet": "xperia c5503 my anti-virus scanned",
+        "analysis": "Keywords: xperia c5503 my anti-virus scanned this application and it says  addisplay.airpush.j  --is this a virus???. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 78,
+        "text_snippet": "easy to use app this",
+        "analysis": "Keywords: easy to use app this app is easy to use. all woot deals are easy to see.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 79,
+        "text_snippet": "great app its a fabulous",
+        "analysis": "Keywords: great app its a fabulous and fast than media channels.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 80,
+        "text_snippet": "? it's better then most",
+        "analysis": "Keywords: ? it's better then most slots on android market. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 81,
+        "text_snippet": "awesome app .. love every",
+        "analysis": "Keywords: awesome app .. love every thing about it!! must admit i started out looking for a food diary but this is amazing!  the my recipes feature is my favorite.   i don't have to miss out .. just enter the recipe and the rest easy.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 82,
+        "text_snippet": "awesome it is really good",
+        "analysis": "Keywords: awesome it is really good   and see it futures   it is unbelievable . it outlook is so creative . that why i like it . i think  it has one major problem it size is so big for small memory usear .. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 83,
+        "text_snippet": "thanks thanks for all",
+        "analysis": "Keywords: thanks thanks for all. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 84,
+        "text_snippet": "nice app. it is very",
+        "analysis": "Keywords: nice app. it is very use full.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 85,
+        "text_snippet": "amazing well designed but confusing.",
+        "analysis": "Keywords: amazing  well designed  but confusing. says i have a lot more free space than android reports.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 86,
+        "text_snippet": "i love it but... its",
+        "analysis": "Keywords: i love it but... its awesome cause i can play my own songs! no.other games do that. not like tap tap. this has really good potential but you guys need to fix these bugs and quick. like pushing all three bottons in the middle of a song... its not going to happen. and also to make the little circles be more in symc with the music. not just all random that doesn't even go with the beat or the music phrases. please fix and ill give 5 all the way!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 87,
+        "text_snippet": "this game is awesome but",
+        "analysis": "Keywords: this game is awesome but i had to delete it because my phone doesn't have enough space but its still awesome. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 88,
+        "text_snippet": "good this game is awesome",
+        "analysis": "Keywords: good this game is awesome for my family. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 89,
+        "text_snippet": "bad!!! it is not use",
+        "analysis": "Keywords: bad!!! it is not use friendly  it eats alot of ram space and it so laggy. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 90,
+        "text_snippet": "dinesh maity i'm too happy",
+        "analysis": "Keywords: dinesh maity i'm too happy to get it.  thank you andraid to making for us. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 91,
+        "text_snippet": "good app. what a nice",
+        "analysis": "Keywords: good app. what a nice app. help me get prepared for the day.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 92,
+        "text_snippet": "the app dont work i",
+        "analysis": "Keywords: the app dont work i made am account and now i cant log in stupid u guys have to fix this it used to work very well b4 the app has an error n it won't let u view ur account please fix asap. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 93,
+        "text_snippet": "fix the damm bug!!! cant",
+        "analysis": "Keywords: fix the damm bug!!! cant even start after update.. vip5 player here and we have this problem?? i smelll compensation. ..... Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 94,
+        "text_snippet": "fun w/ few freezes &",
+        "analysis": "Keywords: fun w/ few freezes & boots i like  it's fun  but booted me out for the first few times and the caller froze on me during a game.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 95,
+        "text_snippet": "frustrating freezes at level 4.",
+        "analysis": "Keywords: frustrating freezes at level 4.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 96,
+        "text_snippet": "live wallpaper this is a",
+        "analysis": "Keywords: live wallpaper this is a grate app. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 97,
+        "text_snippet": "nostalgia loved this game in",
+        "analysis": "Keywords: nostalgia loved this game in the old days.  hope they bring dragons lair 2 and braindead 13 to android next.  i see in other comments space ace is coming.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 98,
+        "text_snippet": "? great for people on",
+        "analysis": "Keywords: ? great for people on the go. i love this app.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 99,
+        "text_snippet": "i like t this game",
+        "analysis": "Keywords: i like t this game is cool. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 100,
+        "text_snippet": "adware this app is adware",
+        "analysis": "Keywords: adware this app is adware wich is a virus 8 think. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 101,
+        "text_snippet": "? fun for kid .thanks",
+        "analysis": "Keywords: ? fun for kid .thanks. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 102,
+        "text_snippet": "satisfied it played for me",
+        "analysis": "Keywords: satisfied it played for me the online streaming audio url i wanted it to play.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 103,
+        "text_snippet": "fast and easy to use",
+        "analysis": "Keywords: fast and easy to use so far i find no faults with this excellent browser. i'd recommend it in a second. my only complaint is the lack of gif support  which is a feature from chrome that i miss.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 104,
+        "text_snippet": "simple its does the job",
+        "analysis": "Keywords: simple its does the job. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 105,
+        "text_snippet": "easy to use and accurate",
+        "analysis": "Keywords: easy to use and accurate like real magnetic compass. no. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 106,
+        "text_snippet": "this game is fun but",
+        "analysis": "Keywords: this game is fun but it freezes too much it gets frustrated.... this game is fun but it freezes too much it gets frustrated..... Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 107,
+        "text_snippet": "laggy very slow even on",
+        "analysis": "Keywords: laggy very slow even on wifi.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 108,
+        "text_snippet": "used to like it was",
+        "analysis": "Keywords: used to like it was a fun game until the last update. ever since then  the game freezes almost every time i try to play it.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 109,
+        "text_snippet": "fast but no session restore",
+        "analysis": "Keywords: fast but no session restore i would love to use this as my browser but can not due to the lack of session restore. i like to keep many tabs open at the same time and need this feature on my browser.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 110,
+        "text_snippet": "thanks :-) xperia sp it's",
+        "analysis": "Keywords: thanks :-) xperia sp  it's very inspiring!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 111,
+        "text_snippet": "separate app for personal videos",
+        "analysis": "Keywords: separate app for personal videos i don't understand why that was removed and ported to another app.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 112,
+        "text_snippet": "excellent app nice to use",
+        "analysis": "Keywords: excellent app nice to use this app it is very handy .. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 113,
+        "text_snippet": "? simple quick and excellent",
+        "analysis": "Keywords: ? simple quick and excellent. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 114,
+        "text_snippet": "unplayable freezes every time i",
+        "analysis": "Keywords: unplayable freezes every time i try to play this has been the only game in the app store to do this period. might b a good game but i wouldn't know. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 115,
+        "text_snippet": "gud it's funny game but",
+        "analysis": "Keywords: gud it's funny game but i wont connect to fb when i clik add friends it's freeze and nothing works and takes me out of game need to fix bug... for fishing it asks to spend vochers i don't understand.  for neighbour house repair it asks coins. need to resolve more bugs.... Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 116,
+        "text_snippet": "didn't get the full features",
+        "analysis": "Keywords: didn't get the full features of kit kat my navigation button on nexus 4 still remain in black background.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 117,
+        "text_snippet": "? this app is so",
+        "analysis": "Keywords: ? this app is so cute. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 118,
+        "text_snippet": "battery level bug battery level",
+        "analysis": "Keywords: battery level bug battery level is not in sync and you cannot remove the icon on the widget.... Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: ENERGY",
+        "category": "ENERGY"
+    },
+    {
+        "id": 119,
+        "text_snippet": "optimalisation for 4.4 is pretty",
+        "analysis": "Keywords: optimalisation for 4.4 is pretty much needed i feel some issues after flashing the supernexus rom. i can't unpause the track -&gt; player will skip to another on the list after two second lag. also  from time to time artwork freezes on screen of the player (was happening also on 4.1.2  so it is not a android version thingy) anyways for me this is the best player on the market. 5* after fixing mentioned issues.  edit: artwork freezes pretty often. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 120,
+        "text_snippet": "integration of emails is nice.",
+        "analysis": "Keywords: integration of emails is nice. would like more features  coming from ms exchange  the lack of features is a bit frustrating. unable to organize at the level i am used to. could use automation festured.  un. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 121,
+        "text_snippet": "very slow intresting to play",
+        "analysis": "Keywords: very slow intresting to play. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: PERFORMANCE",
+        "category": "PERFORMANCE"
+    },
+    {
+        "id": 122,
+        "text_snippet": "? quite reliable and user",
+        "analysis": "Keywords: ? quite reliable and user friendly. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 123,
+        "text_snippet": "not connecting to facebook using",
+        "analysis": "Keywords: not connecting to facebook using samsung s duos 2. the game is addicting but the problem is when trying to connect with facebook  game got strucked and getting closed automatically. upto now this bug is not fixed. getting tired of trying to connect with facebook and with out connecting to facebook i cant trade with my friends and this is the major problem with this game. please fix this...... and i'll give u 5 stars.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 124,
+        "text_snippet": "best of i have tried",
+        "analysis": "Keywords: best of i have tried most of weather apps. this one is the best from far. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 125,
+        "text_snippet": "ok but buggy freezes my",
+        "analysis": "Keywords: ok but buggy freezes my phone a lot. tends to lag right before it happens. fun though. like angry birds. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 126,
+        "text_snippet": "brightness level bugs still many",
+        "analysis": "Keywords: brightness level bugs still many bugs on brightness level rooted optimus 2x ics v30b. although i already check set on boot. please fix it and i will give 5 stars.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 127,
+        "text_snippet": "good app but not bad",
+        "analysis": "Keywords: good app but not bad it consumer high battery  and data  and work amazing. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: SECURITY",
+        "category": "SECURITY"
+    },
+    {
+        "id": 128,
+        "text_snippet": "excellent it's a good app",
+        "analysis": "Keywords: excellent it's a good app for searching jobs. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 129,
+        "text_snippet": "kobe is the best f",
+        "analysis": "Keywords: kobe is the best f all haters enough said. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 130,
+        "text_snippet": "pro features bug fixed please",
+        "analysis": "Keywords: pro features bug fixed please fix as not working with kitkat... Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 131,
+        "text_snippet": "must have very useful. worth",
+        "analysis": "Keywords: must have very useful. worth 5 stars.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 132,
+        "text_snippet": "sms service not working plz",
+        "analysis": "Keywords: sms service not working plz update the app as soon as possible. its a good app im using from last one year but currently its not wrking fix the bug soon.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 133,
+        "text_snippet": "still not marched triumphant upon",
+        "analysis": "Keywords: still not marched triumphant upon its 'younger' competitors. its really funny that other similar services provide voice call for android 2.3 devices with minor issues but worked just fine.then why does a widely-known-through-out-the-world messaging/interaction service from the great blackberry lack it ?.its a hassle to connect my tablet just to voice called my bbm friends which doesn't shared the same pin regardless its bb id.just a standard messaging provided for the gingerbread users which is somewhat useless despite others provide more features/services.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 134,
+        "text_snippet": "generally a good game. difficult",
+        "analysis": "Keywords: generally a good game. difficult to use strategy while attacking  but still good all the same.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 135,
+        "text_snippet": "? this is something wonderful",
+        "analysis": "Keywords: ? this is something wonderful for paper readers. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 136,
+        "text_snippet": "i think it's a very",
+        "analysis": "Keywords: i think it's a very good  creative app. nixe. real nice.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 137,
+        "text_snippet": "? love this site and",
+        "analysis": "Keywords: ? love this site and this app.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 138,
+        "text_snippet": "can play again for a",
+        "analysis": "Keywords: can play again for a while i had trouble getting into the various games  some i couldn't at all but now with patience i can.  sometimes i have to tap a few times but as i understand its not the game it's my phone.  love the game.  i'm pretty addicted lol.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 139,
+        "text_snippet": "dissapointed you don't do united",
+        "analysis": "Keywords: dissapointed you don't do united kingdom! :(. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 140,
+        "text_snippet": "? this app is not",
+        "analysis": "Keywords: ? this app is not worth the money at all..u cant even see the fish and it freezes a lot:(. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 141,
+        "text_snippet": "frustrating lack of features requested",
+        "analysis": "Keywords: frustrating lack of features requested long ago. the lack of ability to save magazines to the external sd card is why i rarely use this anymore. it's ridiculous that i am forced to save to my 8gb of internal space when i have a 64gb microsd card installed.  inability to remove multiple issues at once is frustrating too.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 142,
+        "text_snippet": "micromax a177 that is the",
+        "analysis": "Keywords: micromax a177 that is the best app..... Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 143,
+        "text_snippet": "fun and challenging! one of",
+        "analysis": "Keywords: fun and challenging! one of the most fun android games i have played to date.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 144,
+        "text_snippet": "android un-friendly the app is",
+        "analysis": "Keywords: android un-friendly the app is significantly less developed than its ios counterpart  and the lack of chromecast support is a glaring omission of one of the fundamental features of an android video experience.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 145,
+        "text_snippet": "i dont have a sd",
+        "analysis": "Keywords: i dont have a sd card so i cant use it  :(. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 146,
+        "text_snippet": "this is excellent app really",
+        "analysis": "Keywords: this is excellent app really helpful. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 147,
+        "text_snippet": "facebook connection error when i",
+        "analysis": "Keywords: facebook connection error when i try to connect to facebook  it seems that the game freeze and force quit... pls fix it. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 148,
+        "text_snippet": "it is good but not",
+        "analysis": "Keywords: it is good but not true what do u think giyz. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 149,
+        "text_snippet": "great best for baby's five",
+        "analysis": "Keywords: great best for baby's five. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 150,
+        "text_snippet": "f**** if during next 24",
+        "analysis": "Keywords: f**** if during next 24 hours summon function does not provide me with some 4 stars card which matches my one i will definitely re-rate this game and uninstall. thanks for understanding:) also i do not like facebook. why can i not use google plus for sharing and invitation?. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 151,
+        "text_snippet": "2.6 thish app is very",
+        "analysis": "Keywords: 2.6 thish app is very useful.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 152,
+        "text_snippet": "nice but buggy some times",
+        "analysis": "Keywords: nice but buggy some times you make a move but your clock still is working till you are out of time. awfull. some cheaters can  enter 3 queens  in the game via cheating. fix it and it will be nice app.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 153,
+        "text_snippet": "not good every time i",
+        "analysis": "Keywords: not good every time i try to unfollow it says error and when on my instagram page i have to imput a security code..please fix this now please.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 154,
+        "text_snippet": "not showing today current temperature",
+        "analysis": "Keywords: not showing today current temperature not showing current temperature even after update..can't even  search the locations in india  auto update of location is not working getting some error. pls fix the error so willl give 5 starts. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 155,
+        "text_snippet": "awesome game truly a fun",
+        "analysis": "Keywords: awesome game truly a fun game but please do fix the bugs and the random crashes. good fun  really enjoying it. thanks !!!. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 156,
+        "text_snippet": "lots of really useful info",
+        "analysis": "Keywords: lots of really useful info great info  although i found the forms a bit difficult to use. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: USABILITY",
+        "category": "USABILITY"
+    },
+    {
+        "id": 157,
+        "text_snippet": "error fix the errors gets",
+        "analysis": "Keywords: error fix the errors gets stucked ..... Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: BUG",
+        "category": "BUG"
+    },
+    {
+        "id": 158,
+        "text_snippet": "? does what it says!",
+        "analysis": "Keywords: ? does what it says!  very. happy. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 159,
+        "text_snippet": "excellent best app best game",
+        "analysis": "Keywords: excellent best app  best game ever! can play for hours. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    },
+    {
+        "id": 160,
+        "text_snippet": "very nice for all please",
+        "analysis": "Keywords: very nice for all please some improve diesel shed. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 161,
+        "text_snippet": "do not update... if you're",
+        "analysis": "Keywords: do not update... if you're like me & miss all the great features from the last google maps. i have found the answer. anyone looking to going back to v6.14.4 before the update please email me at: nemichoco@gmail.com. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: FEATURE",
+        "category": "FEATURE"
+    },
+    {
+        "id": 162,
+        "text_snippet": "wow this app is too",
+        "analysis": "Keywords: wow this app is too good thanks.. Sentiment/Intent: Problem/Request. Excluded categories: None. Final category: OTHER",
+        "category": "OTHER"
+    }
+]
