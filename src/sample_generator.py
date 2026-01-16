@@ -8,6 +8,7 @@ import pandas as pd
 
 this_dir = os.path.dirname(os.path.abspath(__file__))
 text_column = 'review'
+res_column = 'category'
 output_path = os.path.normpath(os.path.join(this_dir, '..', 'data', 'output'))
 
 s_min = 0
@@ -86,7 +87,7 @@ def generate_sample(df, conf_level, conf_interval):
 
 
     # 4. Sample generation and saving
-    sample_df = df.sample(n=n_instances, random_state=random.randint(s_min, s_max))[['id', text_column]]
+    sample_df = df.sample(n=n_instances, random_state=random.randint(s_min, s_max))[['id', text_column, res_column]]
     sample_df['id'] = pd.factorize(sample_df['id'])[0] + 1
     return sample_df
 
@@ -96,7 +97,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--data",
         type=str,
-        default=os.path.normpath(os.path.join(this_dir, '..', 'data', 'raw_data.csv')),
+        default=os.path.normpath(os.path.join(this_dir, '..', 'data', 'CLAP.csv')),
         help="Path to the input data (must be in CSV or XLSX format)"
     )
 
