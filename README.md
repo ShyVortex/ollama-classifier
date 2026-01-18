@@ -63,9 +63,16 @@ python src/classifier.py --model [MODEL_NAME] --prompt [PROMPT_PATH]
 
 # Complete usage (use your own dataset, decide on reasoning)
 python src/classifier.py --data [DATASET_PATH] --model [MODEL_NAME]
-                     --prompt [PROMPT_PATH] --reasoning [Y/N]
+                         --prompt [PROMPT_PATH] --reasoning [Y/N]
 ```
 You can add your own prompts in the 'prompts' folder.
+
+Run the match detector script:
+```bash
+python src/match_detector.py --clap [CLAP_PATH] --model-family [FAMILY_NAME]
+                             --prediction-source [CHOICE] (dataset / sample)
+                             --model [JSON_FILENAME]
+```
 
 Run the sample analyzer script:
 ```bash
